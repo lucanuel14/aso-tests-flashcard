@@ -69,7 +69,7 @@ export default function App() {
     <div className="min-h-screen flex items-center justify-center p-6">
       {view === "menu" && (
         <div className="flex flex-col gap-4 text-center max-w-xl w-full">
-          <h1 className="text-3xl font-bold mb-6">Certificación APX</h1>
+          <h1 className="text-3xl font-bold mb-6">Certificación ASO</h1>
 
           <button
             onClick={handleStart}
@@ -89,8 +89,8 @@ export default function App() {
 
           <h2 className="mt-6 font-semibold">🧩 Tests predefinidos:</h2>
           <div className="grid grid-cols-3 gap-2">
-            {Array.from({ length: 12 }).map((_, i) => {
-              const key = `flashcard_apx_${i + 1}`;
+            {Array.from({ length: 9 }).map((_, i) => {
+              const key = `flashcard_aso_${i + 1}`;
               const status = testsProgress[key];
               let bg = "bg-gray-400";
               if (status === "passed") bg = "bg-green-500";

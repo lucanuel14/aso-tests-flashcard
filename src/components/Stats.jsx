@@ -1,7 +1,7 @@
 export default function Stats({ onBack }) {
-  const correct = JSON.parse(localStorage.getItem("apx-corrects") || "0");
-  const errors = JSON.parse(localStorage.getItem("apx-errors") || "[]");
-  const scores = JSON.parse(localStorage.getItem("apx-scores") || "[]");
+  const correct = JSON.parse(localStorage.getItem("aso-corrects") || "0");
+  const errors = JSON.parse(localStorage.getItem("aso-errors") || "[]");
+  const scores = JSON.parse(localStorage.getItem("aso-scores") || "[]");
 
   const media =
     scores.length > 0

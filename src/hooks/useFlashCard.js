@@ -10,19 +10,19 @@ export default function useFlashcards() {
   const [score, setScore] = useState(null);
   const [testsProgress, setTestsProgress] = useState({});
 
-  const allErrors = JSON.parse(localStorage.getItem("apx-errors") || "[]");
+  const allErrors = JSON.parse(localStorage.getItem("aso-errors") || "[]");
 
   useEffect(() => {
-    fetch("/flashcards_apx_opt.json")
+    fetch("/flashcards_aso_opt.json")
       .then((res) => res.json())
       .then((data) => setAllCards(data));
 
-    fetch("/flashcards_apx_12tests.json")
+    fetch("/flashcards_aso_12tests.json")
       .then((res) => res.json())
       .then((data) => setPredefinedTests(data));
 
     const stored = JSON.parse(
-      localStorage.getItem("apx-tests-progress") || "{}"
+      localStorage.getItem("aso-tests-progress") || "{}"
     );
     setTestsProgress(stored);
   }, []);
@@ -125,13 +125,13 @@ export default function useFlashcards() {
 
     // ✅ Guardar número acumulado de correctas
     const prevCorrect = parseInt(
-      localStorage.getItem("apx-corrects") || "0",
+      localStorage.getItem("aso-corrects") || "0",
       10
     );
-    localStorage.setItem("apx-corrects", (prevCorrect + correct).toString());
+    localStorage.setItem("aso-corrects", (prevCorrect + correct).toString());
 
     // ✅ Guardar errores (limpia los que se corrigieron)
-    const prevErrors = JSON.parse(localStorage.getItem("apx-errors") || "[]");
+    const prevErrors = JSON.parse(localStorage.getItem("aso-errors") || "[]");
     const updatedErrors = Array.from(
       new Set([
         ...prevErrors.filter(
@@ -140,12 +140,12 @@ export default function useFlashcards() {
         ...newErrors,
       ])
     );
-    localStorage.setItem("apx-errors", JSON.stringify(updatedErrors));
+    localStorage.setItem("aso-errors", JSON.stringify(updatedErrors));
 
     // ✅ Guardar puntuaciones (máx. 10)
-    const prevScores = JSON.parse(localStorage.getItem("apx-scores") || "[]");
+    const prevScores = JSON.parse(localStorage.getItem("aso-scores") || "[]");
     const updatedScores = [resumen, ...prevScores].slice(0, 10);
-    localStorage.setItem("apx-scores", JSON.stringify(updatedScores));
+    localStorage.setItem("aso-scores", JSON.stringify(updatedScores));
 
     // ✅ Guardar progreso del test si es predefinido
     const allowedTestKeys = Object.keys(predefinedTests);
@@ -155,7 +155,7 @@ export default function useFlashcards() {
         [testKey]: resumen.nota >= 5 ? "passed" : "failed",
       };
       setTestsProgress(updated);
-      localStorage.setItem("apx-tests-progress", JSON.stringify(updated));
+      localStorage.setItem("aso-tests-progress", JSON.stringify(updated));
     }
   };
 

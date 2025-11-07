@@ -1,0 +1,2508 @@
+[
+  {
+    "id": "f409552c-e84f-4416-9ae5-80ee7a858911",
+    "question": "¿Qué código de respuesta devuelve un servicio Global que no devuelve datos?",
+    "options": [
+      "400",
+      "500",
+      "200",
+      "204"
+    ],
+    "answer": "204",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "68ff2e5a-8b14-4d7f-88a8-0aaf8892caa1",
+    "question": "Para realizar un commit:",
+    "options": [
+      "Hay que poner un asunto y una breve descripción del cambio",
+      "Tiene que ser de un cambio importante sobre el código",
+      "Hay que describir siempre el cambio realizado en inglés",
+      "No es necesario describir el cambio"
+    ],
+    "answer": "Hay que poner un asunto y una breve descripción del cambio",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "de9295af-ee7a-4cb6-a949-4ccf212f9858",
+    "question": "¿Quién prueba un servicio la noche de implantación?",
+    "options": [
+      "Las pruebas las realiza Integración y Desarrollo",
+      "Los responsables de las líneas",
+      "El responsable del desarrollo",
+      "El desarrollador, al día siguiente de la implantación"
+    ],
+    "answer": "El responsable del desarrollo",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "612745ca-c5e7-433a-a355-a2f8fa754268",
+    "question": "¿En qué estado del JIRA debe dar el consumidor el VºBº?",
+    "options": [
+      "En Designing Service",
+      "En Under Construction",
+      "En Ready To Integrate",
+      "En Pending Release Candidate Validation"
+    ],
+    "answer": "En Pending Release Candidate Validation",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "0d729ee6-20ea-40e7-9812-8b9a2b5fd39a",
+    "question": "¿Cómo se solicita una variable de Arquitectura?",
+    "options": [
+      "Mediante un Jira",
+      "Mediante un Remedy a Gobierno",
+      "Mediante un Remedy a Arquitectura",
+      "Con un correo a Gobierno"
+    ],
+    "answer": "Mediante un Jira",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "0bb89eef-84d1-4664-8a6d-f3cb435a317c",
+    "question": "¿De cuál de los siguientes estados del ticket JIRA es responsable el equipo de Gobierno?",
+    "options": [
+      "En Under Construction",
+      "En Designing Metadata",
+      "En Validating Metadata",
+      "En Deployed"
+    ],
+    "answer": "En Deployed",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "7cbac7a3-38c8-4ac2-93c1-261b9b1a7941",
+    "question": "¿Cuál es el nombre del jar que se genera en un servicio de negocio cuando se compila?",
+    "options": [
+      "uuaa-logicalId-version.jar",
+      "uuaa_logicalId-facade.jar",
+      "uuaa_logicalId.jar",
+      "Ninguna de las anteriores"
+    ],
+    "answer": "uuaa_logicalId.jar",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "ebe4af6a-d464-4f2e-9465-97ead6d5ccd7",
+    "question": "Imagina que tienes que implementar un servicio con filtros. ¿Qué componentes situarías en el DAO?",
+    "options": [
+      "Clases backend",
+      "Clases backend y llamadas al backend",
+      "Clases backend, llamadas al backend y mapper backend",
+      "Clases backend, llamadas al backend, mapper backend y entidades internas"
+    ],
+    "answer": "Clases backend",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "ef69d7bb-09fa-40ef-a777-1a2e2758622d",
+    "question": "Si en una iniciativa se nos pide que dependiendo de la AAP el servicio se comporte de una u otra forma, ¿cómo debemos actuar?",
+    "options": [
+      "Incluir la lógica en el servicio llamando a ServiceInvocationContext",
+      "Incluir la lógica en el servicio llamando a ServiceUtilities",
+      "No debemos incluir esa lógica en el servicio, la debe incluir la transacción",
+      "Solo podemos comprobar si el canal que llama es asistido o desasistido"
+    ],
+    "answer": "No debemos incluir esa lógica en el servicio, la debe incluir la transacción",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "7284c699-822b-472b-a8e4-f564a37551e5",
+    "question": "¿Qué código corresponde cuando un servicio no devuelve datos?",
+    "options": [
+      "200",
+      "400",
+      "204",
+      "403"
+    ],
+    "answer": "204",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "b485af36-4e68-45d7-b7ff-8bbd5526922e",
+    "question": "¿Cuándo se hace el control de canal?",
+    "options": [
+      "Siempre",
+      "Si el servicio usa tarjetas",
+      "Solo cuando se hace en oficinas",
+      "Solo desde las AAP atendidas"
+    ],
+    "answer": "Siempre",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "200fc9a7-b83e-4c43-9f79-3ce2a98e1c12",
+    "question": "Si realizamos una modificación sobre la rama Release Candidate, el nombre de nuestra rama tendrá el formato:",
+    "options": [
+      "Hotfix/[ticket JIRA]-[breve descripción]",
+      "Feature/[ticket JIRA]-[breve descripción]",
+      "Custom/[ticket JIRA]-[breve descripción]",
+      "Bugfix/[ticket JIRA]-[breve descripción]"
+    ],
+    "answer": "Bugfix/[ticket JIRA]-[breve descripción]",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "3e004539-6a7c-420f-9cbc-efb8dc3dc5a0",
+    "question": "¿Cuándo se desbloquean los servicios en Integrado (bloqueados por una implantación)?",
+    "options": [
+      "El día de la subida a PRO",
+      "El día de la subida a Piloto",
+      "Ya nunca se bloquean",
+      "Cuando se revisa la Calidad"
+    ],
+    "answer": "El día de la subida a PRO",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "069071a0-49ad-4c17-a8de-bfff3b81a0ca",
+    "question": "¿En cuál de estos estados del JIRA el responsable no es el equipo de desarrollo?",
+    "options": [
+      "En Designing Metadata",
+      "En Designing Security",
+      "En Under Construction",
+      "En Designing Service"
+    ],
+    "answer": "En Designing Security",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "8f56fd69-896e-4a70-a5b0-182f92db59e6",
+    "question": "¿Qué código de error devuelve un servicio cuando está corrupto?",
+    "options": [
+      "400",
+      "409",
+      "500",
+      "404"
+    ],
+    "answer": "404",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "754bf373-001c-4216-8f7d-4e00f4a10e19",
+    "question": "¿Cuándo un ticket JIRA pasa a ser un ticket inactivo?",
+    "options": [
+      "Han pasado 15 días desde su modificación",
+      "He subido el servicio y no he avanzado el ticket",
+      "El ticket es sobre un servicio que ya se está modificando",
+      "No he contestado a los comentarios de esa semana"
+    ],
+    "answer": "Han pasado 15 días desde su modificación",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "65d57a8d-6c63-4b20-b7e1-4293892a3f2f",
+    "question": "Si quiero añadir una rutina nueva para usarla dentro de un servicio, ¿dónde la añado?",
+    "options": [
+      "En el business-service.xml",
+      "En el facade con la anotación @SN(routines=[rutina])",
+      "En el pom.xml",
+      "Ninguna de las anteriores"
+    ],
+    "answer": "En el business-service.xml",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "edad9175-1271-4ea4-bd04-66a1e73d5ffe",
+    "question": "¿Dónde está disponible la nueva documentación de Arquitectura?",
+    "options": [
+      "En Google Drive",
+      "En el site de Gobierno",
+      "En el site de Arquitectura",
+      "En el Platform"
+    ],
+    "answer": "En el Platform",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "b3c47ab2-bae9-4197-860e-17922a488614",
+    "question": "¿Qué código de respuesta devuelve un servicio de creación cuando ha funcionado correctamente?",
+    "options": [
+      "400",
+      "201",
+      "409",
+      "204"
+    ],
+    "answer": "201",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "a260dace-8dd3-4a33-a780-c2470ba181de",
+    "question": "¿Quién decide las fechas de las subidas de las calendadas?",
+    "options": [
+      "Los usuarios integradores",
+      "Los líderes de las líneas",
+      "Gobierno de Arquitectura",
+      "Gestión de Cambios"
+    ],
+    "answer": "Gestión de Cambios",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "b8e40287-7d2e-41cc-afa9-94f84560a044",
+    "question": "¿Qué código corresponde a un error funcional en implementación Global?",
+    "options": [
+      "400",
+      "500",
+      "409",
+      "204"
+    ],
+    "answer": "400",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "3e13df27-10f0-499f-a6b8-50f73574e28f",
+    "question": "¿Quién se encarga de mergear nuestros cambios a la rama Master?",
+    "options": [
+      "El Release Manager",
+      "Nosotros mediante Remedy",
+      "Gobierno ASO",
+      "Nosotros a través de SourceTree"
+    ],
+    "answer": "El Release Manager",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "6a310787-fdc7-45c9-a19e-bb921540c540",
+    "question": "¿Qué nombre tiene una rama del fork?",
+    "options": [
+      "GRAP-4742 o ASOGP-4742",
+      "SOPVII-21009",
+      "feature/FixDescripciones",
+      "xe51715"
+    ],
+    "answer": "GRAP-4742 o ASOGP-4742",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "17a8fa30-ea1d-4fae-8305-5919083b1458",
+    "question": "¿Cómo se implementa un enumerado?",
+    "options": [
+      "Como tipo Enum",
+      "Como String",
+      "Nunca se define un Enum en un servicio",
+      "Como un array de enum"
+    ],
+    "answer": "Como String",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "64416149-af2f-4dd3-bc31-f56fbb412462",
+    "question": "¿Cuál sería un nombre correcto de un fork?",
+    "options": [
+      "El ticket JIRA asociado",
+      "[username]-repositorio",
+      "El ticket GRAP asociado",
+      "Cualquier nombre"
+    ],
+    "answer": "[username]-repositorio",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "ec158807-6d21-4a73-ba9e-2bff129cb904",
+    "question": "¿Cuál de las siguientes reglas de Sonar para implantar no es exigida para subir nuestro código?",
+    "options": [
+      "Que la cobertura sea superior a la que había en master",
+      "Que al menos funcionen el 65% de los tests",
+      "Que no haya incidencias críticas",
+      "Que no haya incidencias bloqueantes"
+    ],
+    "answer": "Que al menos funcionen el 65% de los tests",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "acd20275-2259-4181-ab26-b490745ac8f7",
+    "question": "Cuando se versiona un servicio, ¿qué se hace realmente?",
+    "options": [
+      "Se versiona el SMC (facade, business, dao)",
+      "Se versiona solo la facade",
+      "Se versiona el SN entero con todos los SMC",
+      "Se versiona la facade de todo el SN (no hace falta versionar todo el SN entero)"
+    ],
+    "answer": "Se versiona solo la facade",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "2ae675a8-cb3e-48e7-8862-7f5b84ac32cb",
+    "question": "¿Qué código corresponde a un error funcional en implementación Local?",
+    "options": [
+      "400",
+      "500",
+      "409",
+      "403"
+    ],
+    "answer": "400",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "ff6402eb-fd76-4e42-85a7-afb4038e9fce",
+    "question": "¿Cuál de los siguientes formatos para validar el WADL en PRO es correcto?",
+    "options": [
+      "https://bbva.es/ASO/cryptographicServices/v01/?_wadl",
+      "curl –x GET /requestsStoresPayments/V01/?_wadl",
+      "curl –x GET http://lprsm302:7560/redsys/v0/redsys/?_wadl",
+      "curl –x GET http://lprsm302:7560/redsys/v0/?_wadl"
+    ],
+    "answer": "curl –x GET http://lprsm302:7560/redsys/v0/redsys/?_wadl",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "2500a840-bbdf-4dc6-b37a-b054bbc47595",
+    "question": "¿Se debe acceder al contexto del servicio para tomar decisiones en función de la APP?",
+    "options": [
+      "Sí, siempre",
+      "No, salvo que sea estrictamente necesario",
+      "No",
+      "Sí, en el caso de que el consumidor lo requiera"
+    ],
+    "answer": "No",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "7ccbef80-0d67-4924-8b45-da9d51c56fb5",
+    "question": "¿Cuándo hay que hacer control de canal en un servicio?",
+    "options": [
+      "Siempre",
+      "Solo cuando son servicios de particulares",
+      "Solo en las AAPs atendidas",
+      "Solo en las AAPs desatendidas"
+    ],
+    "answer": "Siempre",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "111c9f90-158d-4eac-a76a-77288a8851b0",
+    "question": "¿Se puede llamar a un SMC desde otro SMC?",
+    "options": [
+      "Sí, incluyendo la llamada con un RestConnector",
+      "Sí, incluyendo el SMC en el business-service.xml",
+      "Sí, incluyendo el SMC en el pom.xml",
+      "No"
+    ],
+    "answer": "No",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "dd326421-ae86-4bc7-9e3e-e4f75892c5f7",
+    "question": "¿En qué ruta debo incluir el Cucumber nuevo?",
+    "options": [
+      "Com.bbva.arch.qe.test",
+      "Acceptane",
+      "Com.bbva.enax.stores.bdd",
+      "Cucumber/src/main/java/com/bbva/arch/qe/test"
+    ],
+    "answer": "Acceptane",
+    "topic": "ASO/Global/Test 1"
+  },
+  {
+    "id": "8d2e2e46-ea7a-42d0-bcaf-1e78cfa878ba",
+    "question": "¿Cuándo hay que realizar el control de canal a un servicio?",
+    "options": [
+      "Sólo en AAPs atendidas",
+      "Sólo en AAPs desatendidas",
+      "Siempre",
+      "Sólo en los servicios críticos"
+    ],
+    "answer": "Siempre",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "a7fae51c-45e3-49ae-8385-25306b6b0973",
+    "question": "¿Cuándo puedo mergear mi rama en la rama master?",
+    "options": [
+      "Cuando vaya a subir a producción y tenga el ticket en “Pendiente de Producción”",
+      "Cuando ya se haya subido a producción y tenga el ticket en \"Verificación de Repositorio\"",
+      "Nunca debo mergear mi rama en la de master",
+      "Una vez haya mergeado en la rama de desarrollo y se haya comprobado que todo funciona"
+    ],
+    "answer": "Nunca debo mergear mi rama en la de master",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "ba7d6675-7f50-47da-a768-010e01f0b735",
+    "question": "¿Cuántos features tiene que tener nuestro cucumber si el servicio es un POST?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "ed113a2d-e70d-47c1-9892-c51cf79b2811",
+    "question": "¿Cuál es la cobertura mínima para pasar Sonar?",
+    "options": [
+      "55%",
+      "65%",
+      "75%",
+      "85%"
+    ],
+    "answer": "65%",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "8ce21ea4-6aba-4874-969a-a12c2d637355",
+    "question": "¿Cuándo puedo crear un ticket de modificación express?",
+    "options": [
+      "Cuando la modificación no impacta al diseño",
+      "Cuando necesito modificar un servicio rápidamente",
+      "Cuando la modificación es muy pequeña, aunque impacte al diseño",
+      "Cuando no sea necesario volver a catalogar el servicio"
+    ],
+    "answer": "Cuando la modificación no impacta al diseño",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "41f5974e-8f2e-47b7-991d-d53ac4eb0df6",
+    "question": "Para solicitar la inclusión de nuestro código en master hay que:",
+    "options": [
+      "Rellenar un formulario a integración y despliegue indicando nuestra rama",
+      "Rellenar un formulario a integración y despliegue indicando el SN para que suba la rama “desarrollo”",
+      "Solicitar mediante un correo a integración y despliegue indicando la fecha calendada de la subida",
+      "Pasar el ticket JIRA a pendiente de producción"
+    ],
+    "answer": "Rellenar un formulario a integración y despliegue indicando nuestra rama",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "8d74d51f-2575-485a-9002-6607341a3bb0",
+    "question": "¿Cuántos features tiene que tener nuestro cucumber si el servicio es un GET de tipo list?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "e9e68238-605f-4d77-a7fe-6f338997de09",
+    "question": "¿Sobre qué rama destino tiene que ir el Pull Request del RAML?",
+    "options": [
+      "Master",
+      "La rama del ticket GRAP",
+      "Develop",
+      "Ninguna de las anteriores"
+    ],
+    "answer": "Develop",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "4dd5e85c-2fb1-4597-b84d-b01fcb483aec",
+    "question": "¿A qué nivel del servicio se encuentra la carpeta “acceptance”?",
+    "options": [
+      "A nivel de las capas",
+      "A nivel del mapper de la facade",
+      "A nivel del mapper a la transacción",
+      "A nivel de la carpeta raíz"
+    ],
+    "answer": "A nivel de la carpeta raíz",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "de4b95f2-77be-41cb-8279-039918a64cf7",
+    "question": "¿Cuántos features tiene que tener nuestro cucumber si el servicio es un GET de tipo detalle?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "6",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "8c62463a-6e1b-41e5-9b1c-4cab6fdaa151",
+    "question": "¿En qué situación puedo no sacar mi rama del último tag de PRO?",
+    "options": [
+      "Nunca, siempre ha de ser el último tag de producción",
+      "Siempre que haya un tag DEV más nuevo",
+      "Siempre que hayan pasado 2 meses desde el último",
+      "Nunca hay que sacar la rama del último tag de PRO"
+    ],
+    "answer": "Nunca, siempre ha de ser el último tag de producción",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "0d213e5e-5d7f-4cd4-b857-3313e089bfc8",
+    "question": "¿Cómo se implementan los test unitarios?",
+    "options": [
+      "Con Cucumber",
+      "Con Sonar",
+      "Con Junit",
+      "Con Postman"
+    ],
+    "answer": "Con Junit",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "acc7fc34-3c73-4f37-ac83-b9b3e36583a3",
+    "question": "¿En cuál de estos estados del JIRA el responsable es el equipo de Global?",
+    "options": [
+      "Pendiente de validación Global",
+      "En edición de datos",
+      "En construcción",
+      "En edición de Datos Global"
+    ],
+    "answer": "Pendiente de validación Global",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "37b3d45c-0dad-42b8-bda1-a6c0b8fc85b6",
+    "question": "¿Cuántos features tiene que tener nuestro cucumber si el servicio es un DELETE?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "5",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "1c5291f9-8d09-47c4-b275-906bf66ad4ad",
+    "question": "Para desarrollar un API hay que:",
+    "options": [
+      "Abrir un Ticket JIRA GRAP",
+      "Ir al workshop y hablar con el equipo de GLOBAL para que ellos abran un ticket JIRA",
+      "Enviar un correo al equipo de GLOBAL con un breve resumen de la iniciativa",
+      "Cuando enviamos el DFT, el equipo de GLOBAL abrirá un ticket JIRA"
+    ],
+    "answer": "Cuando enviamos el DFT, el equipo de GLOBAL abrirá un ticket JIRA",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "f34fb3c0-523e-4030-9a2f-74d1d520189f",
+    "question": "¿Qué medio no me va a resolver las dudas sobre la construcción de un Servicio?",
+    "options": [
+      "A. La comunidad Google+",
+      "B. Mis compañeros de equipo",
+      "C. Askbot",
+      "D. Buzón de Gobierno"
+    ],
+    "answer": "D. Buzón de Gobierno",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "f7829574-15f5-447f-9cfc-bb904752efee",
+    "question": "¿Con cuáles de las incidencias en Sonar no está permitido solicitar la implantación?",
+    "options": [
+      "A. Crítica e invalidadora",
+      "B. Crítica y bloqueante",
+      "C. Mayor y bloqueante",
+      "D. Ninguna de las anteriores"
+    ],
+    "answer": "B. Crítica y bloqueante",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "8ad43880-fe00-48a4-8231-e3cc7978067e",
+    "question": "¿Cuántos features tiene que tener nuestro cucumber si el servicio es un PATCH?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "5",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "b5d8d7f7-42ab-4d36-8a09-a69ce5d4a0d4",
+    "question": "¿Cómo se prueban los servicios la noche de la implantación?",
+    "options": [
+      "A. Solo se debe probar que levanta el Wadl",
+      "B. Prueba funcional, a poder ser invocando desde el front.",
+      "C. No se pueden probar los servicios en PRO",
+      "D. Solo se deben probar desde postman"
+    ],
+    "answer": "B. Prueba funcional, a poder ser invocando desde el front.",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "26638b5b-b740-4aea-a86c-0536006a40cb",
+    "question": "Para desplegar en Integrado",
+    "options": [
+      "Hay que mergear a Master nuestros cambios y desplegar esta rama",
+      "Se despliega esta rama",
+      "Hay que mergear nuestros cambios en desarrollo y desplegar esta rama",
+      "No es necesario probar en Integrado, con probar en Gremio es suficiente"
+    ],
+    "answer": "Hay que mergear nuestros cambios en desarrollo y desplegar esta rama",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "a445651f-d1c5-4336-b394-05afbc132e18",
+    "question": "¿Cuándo un ticket JIRA pasa a estar inactivo?",
+    "options": [
+      "Han pasado 15 días desde su última modificación",
+      "Ha subido el servicio y no he avanzado el ticket",
+      "El ticket es sobre un servicio que ya se está modificando",
+      "No he contestado a los comentarios de esa semana"
+    ],
+    "answer": "Han pasado 15 días desde su última modificación",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "bb69b2e7-086f-4ae8-8729-552dec59198f",
+    "question": "¿Cuál de estas afirmaciones no es correcta?",
+    "options": [
+      "El ticket Jira lo abre la persona que vaya a desarrollar la iniciativa",
+      "EL ticket Jira lo abre la persona que va a diseñar la iniciativa",
+      "El ticket Jira lo abre el responsable de la iniciativa",
+      "El ticket Jira lo abre el responsable de la Línea"
+    ],
+    "answer": "El ticket Jira lo abre el responsable de la Línea",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "46aa5c48-05c3-4b04-a2bf-31573fe63ed2",
+    "question": "¿Cómo se implementan los test funcionales?",
+    "options": [
+      "Con Cucumber",
+      "Con Sonar",
+      "Con Junit",
+      "Con Postman"
+    ],
+    "answer": "Con Cucumber",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "6353c0af-7cc8-4ce0-8b7a-5fb5f629bc1d",
+    "question": "¿Cuál es el número mínimo de ramas que ha de tener un repositorio?",
+    "options": [
+      "2",
+      "0",
+      "1",
+      "3"
+    ],
+    "answer": "2",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "d3942b37-e96a-45c4-9384-8cf64b0c618d",
+    "question": "¿Cómo se solicita la modificación del valor de una variable de arquitectura?",
+    "options": [
+      "Mediante un ticket JIRA",
+      "Mediante un Remedy a Gobierno",
+      "Mediante un correo a Arquitectura",
+      "Mediante un Remedy a Arquitectura de Servicios"
+    ],
+    "answer": "Mediante un Remedy a Arquitectura de Servicios",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "397a1053-b06e-4f98-84eb-d5379a0cb3bf",
+    "question": "¿Qué contiene la carpeta “acceptance”?",
+    "options": [
+      "Cucumber",
+      "Junits",
+      "Business-service.xml",
+      "Contextos de las Transacciones"
+    ],
+    "answer": "Cucumber",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "187713bd-7e93-4331-8627-224298d303e5",
+    "question": "¿Por cuál de estos motivos puede Integración y Despliegue rechazar la subida del servicio?",
+    "options": [
+      "La cobertura sea igual o superior a la que había en Producción",
+      "Funcionen el 80% de los test",
+      "Funcionen todos los test del cucumber",
+      "Cuando se solicita la subida, el ticket se encuentre en el estado “En Construcción”"
+    ],
+    "answer": "Funcionen el 80% de los test",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "e6bc0497-fa9d-4c4d-bb30-34bd2216fbdd",
+    "question": "¿Cuál es el flujo de despliegue por entornos correcto?",
+    "options": [
+      "Desarrollo -> Gremio -> Integrado -> Piloto -> Producción",
+      "Desarrollo -> Gremio -> Integrado -> AUS -> Piloto -> Producción",
+      "Desarrollo -> Integrado -> Producción",
+      "Desarrolo -> Integrado -> Gremio -> Piloto -> Producción"
+    ],
+    "answer": "Desarrollo -> Gremio -> Integrado -> AUS -> Piloto -> Producción",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "e7f15ed1-ecc1-4b29-9de2-c0eb58bb140e",
+    "question": "¿Qué Gobiernos hay en España?",
+    "options": [
+      "A. Gobierno de Servicios y APX",
+      "B. Gobierno de Servicios, APX y Global",
+      "C. Gobierno de Arquitectura y Gobierno de Datos",
+      "D. Gobierno de Servicios, APX y Batch."
+    ],
+    "answer": "C. Gobierno de Arquitectura y Gobierno de Datos",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "a49a2165-d693-4487-bb69-8f3e172d3fcf",
+    "question": "¿Se puede comportar un servicio de forma diferente según la AAP?",
+    "options": [
+      "A. Sí, incluyendo la llamada con un RestConnector",
+      "B. Sí, incluyendo el SMC en el business-service.xml",
+      "C. Sí, incluyendo el SMC en el pom.xml",
+      "D. No"
+    ],
+    "answer": "D. No",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "d21750bc-de8e-4763-a3da-7d9b99c8ddbd",
+    "question": "¿Qué código HTTP de respuesta se utilizará cuando un servicio con funcionamiento ASO devuelva un error funcional?",
+    "options": [
+      "A. 200",
+      "B. 409",
+      "C. 400",
+      "D. Ninguno de los anteriores"
+    ],
+    "answer": "C. 400",
+    "topic": "ASO/Global/Test 2"
+  },
+  {
+    "id": "7e6a71ee-34af-4220-b892-0904166b6fc0",
+    "question": "Si se versiona una transacción APX pero NO incluye nuevas transacciones Host en su árbol de llamadas. ¿Es necesario catalogar y perfilar de nuevo el servicio?",
+    "options": [
+      "Sí",
+      "No"
+    ],
+    "answer": "No",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "bea95131-73b7-4f9a-923f-a1932f01f962",
+    "question": "Señala la frase correcta.",
+    "options": [
+      "Los desarrollos nuevos no deben bajar la cobertura de lo que ya hay en producción.",
+      "La cobertura mínima para un despliegue es el 65%.",
+      "Todas las anteriores son correctas.",
+      "Ninguna es correcta"
+    ],
+    "answer": "Todas las anteriores son correctas.",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "ecff9a8d-099e-4ff3-9d8b-302478fabee0",
+    "question": "Como developer ¿cómo puedo desplegar mi rama feature en Integrado?",
+    "options": [
+      "No puede con el Rol de developer",
+      "Puedo desplegar mi rama sin ningún problema",
+      "Mediante un mergeo en la rama Integration, y desplegando esta",
+      "Solo puede desplegar en Integrado con el rol de release manager"
+    ],
+    "answer": "Mediante un mergeo en la rama Integration, y desplegando esta",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "e2bb6a36-1038-4108-b09e-d5833398b9ae",
+    "question": "¿Por qué se considera un ticket en estado “En Construcción”, inactivo?",
+    "options": [
+      "Han pasado 15 días desde su modificación",
+      "Han pasado 20 días desde su modificación",
+      "Han pasado 10 días desde su modificación",
+      "Han pasado 40 días desde su modificación"
+    ],
+    "answer": "Han pasado 40 días desde su modificación",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "4b63efa9-d245-4488-912b-a4864eb18679",
+    "question": "¿Cuántas transacciones hay que indicar en los metadatos?",
+    "options": [
+      "Las transacciones a las que se llaman en el servicio",
+      "El árbol de transacciones de las transacciones del servicio",
+      "Todas las anteriores",
+      "Ninguna de las anteriores"
+    ],
+    "answer": "Todas las anteriores",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "9e4096a8-a487-4eec-887e-8fb8c33bce0d",
+    "question": "La rama hotfix sale de la rama de...",
+    "options": [
+      "Develop",
+      "Master",
+      "Integration",
+      "Ninguna de las anteriores"
+    ],
+    "answer": "Master",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "973a017e-de4d-4203-90a4-69446aeaa48c",
+    "question": "En un servicio NUEVO, ¿dónde incluirías los valuable codes?",
+    "options": [
+      "Los servicios nuevos no incluyen valuable codes, lo debe realizar la APX.",
+      "pom.xml",
+      "En la facade.",
+      "A nivel raíz."
+    ],
+    "answer": "Los servicios nuevos no incluyen valuable codes, lo debe realizar la APX.",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "a379d75b-61a7-4b0f-a62c-26efd849c15f",
+    "question": "Como Release Manager puedo desplegar la rama feature en ...",
+    "options": [
+      "Gremio > Octa > Aus",
+      "Desarrollo > Integrado > Gremio >",
+      "Desarrollo > Gremio",
+      "Ninguna de las anteriores"
+    ],
+    "answer": "Gremio > Octa > Aus",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "c313e72b-a56f-49b9-a317-429971ad7b74",
+    "question": "¿En cuál de estos estados es el desarrollador responsable del ticket Jira?",
+    "options": [
+      "Under Construction",
+      "Validating Design",
+      "Reviewing Design",
+      "Ready to Production Deployment"
+    ],
+    "answer": "Under Construction",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "4488ea3b-b6a6-4aa9-ae88-9ab6f3b29b66",
+    "question": "¿Quién se encarga de realizar actualmente los mergeos a la rama desarrollo?",
+    "options": [
+      "Integración y despliegue",
+      "Se realiza mediante Pull Request",
+      "El desarrollador",
+      "Los integradores de la UUAA"
+    ],
+    "answer": "El desarrollador",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "20aaba89-eeb3-42a9-ac87-062914ed1fe2",
+    "question": "¿De qué rama saldrá nuestra feature en el nuevo modelo?",
+    "options": [
+      "Master",
+      "producción",
+      "Develop",
+      "Rc"
+    ],
+    "answer": "Develop",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "3703caf0-40c5-429c-ad92-f689cf8c6691",
+    "question": "En el nuevo pipeline nuestra bugfix sale de la rama...",
+    "options": [
+      "Master",
+      "develop",
+      "RC",
+      "Production"
+    ],
+    "answer": "RC",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "ec098487-36de-4f75-8f47-d13ab55f7f40",
+    "question": "¿Qué rol puede desplegar en entorno de producción?",
+    "options": [
+      "Developer",
+      "Master",
+      "Release Manager",
+      "Integrador de UUAA"
+    ],
+    "answer": "Release Manager",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "cb19a0aa-783f-4912-b5fb-3f99dcb894b0",
+    "question": "¿Cuál sería un nombre correcto como rama del fork?",
+    "options": [
+      "El ticket GRAP asociado",
+      "El ticket jira asociado",
+      "feature/fix Descripciones",
+      "Mi usuario"
+    ],
+    "answer": "El ticket jira asociado",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "69c27c39-26de-4028-aa45-57db718b5c80",
+    "question": "¿Cuál es la principal diferencia entre un ticket de Modificación de SMC y un ticket de Modificación Exprés de servicio?",
+    "options": [
+      "El ticket express se usa para correcciones urgentes y justificadas mientras que el de modificación es para cualquier otro caso.",
+      "En el ticket de modificación se solicita el consumo de un servicio y el ticket de Modificación Exprés no",
+      "En el ticket de Modificación Exprés se solicita el consumo de un servicio y en el ticket de Modificación de SMC no",
+      "En el ticket de Modificación Exprés hay que modificar el diseño y en el ticket de Modificación de SMC no"
+    ],
+    "answer": "El ticket express se usa para correcciones urgentes y justificadas mientras que el de modificación es para cualquier otro caso.",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "f9d605c2-7804-45ad-bdeb-b192f3c7fd3a",
+    "question": "Como developer puedo desplegar mi rama feature en...",
+    "options": [
+      "Gremio > Integrado",
+      "Gremio",
+      "Desarrollo > gremio > Integrado",
+      "Ninguna de las anteriores"
+    ],
+    "answer": "Desarrollo > gremio > Integrado",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "99465398-0ab9-41fe-a2dc-8aad0a86f264",
+    "question": "¿Qué código de error se corresponde con un error técnico?",
+    "options": [
+      "500",
+      "409",
+      "400",
+      "404"
+    ],
+    "answer": "500",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "b774d9f4-f718-4bbb-99cd-739f4578ef0a",
+    "question": "Cuando se versiona un servicio, se versiona:",
+    "options": [
+      "La facade",
+      "La facade, business.",
+      "La facade, business, dao.",
+      "Ninguna."
+    ],
+    "answer": "La facade",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "41b08b3c-0130-48fd-8e26-15783187c216",
+    "question": "¿Si se quiere que un servicio pase de mono-operativo a multi-operativo qué tendremos que tener en cuenta?",
+    "options": [
+      "Deberá subir primero el servicio y después la catalogación ya que si no fallará el servicio.",
+      "Deberá subir primero la catalogación y después el servicio ya que si no fallará el servicio.",
+      "No se puede realizar el cambio",
+      "Se tendrá que versionar el servicio"
+    ],
+    "answer": "Deberá subir primero el servicio y después la catalogación ya que si no fallará el servicio.",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "2403c2a9-a745-4cd5-985e-317e36b8b279",
+    "question": "¿Quién se encarga de solicitar los consumos de los servicios mediante el ticket JIRA correspondiente?",
+    "options": [
+      "El desarrollador del servicio.",
+      "El propietario del servicio.",
+      "El consumidor.",
+      "Gobierno."
+    ],
+    "answer": "El consumidor.",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "582e1a5b-49a1-46b0-91dc-3d75db98f1d1",
+    "question": "¿Cómo se dan de alta las variables de Arquitectura?",
+    "options": [
+      "Indicándolo en el jira de Gobierno",
+      "Vía remedy a Gobierno",
+      "Vía remedy a Arquitectura",
+      "Por correo a Arquitectura con copia a Gobierno"
+    ],
+    "answer": "Vía remedy a Arquitectura",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "279f2b00-bb4e-4983-a565-a985601be620",
+    "question": "Si tengo que hacer una corrección de una incidencia que no es bloqueante ¿qué tipo de rama se creará...?",
+    "options": [
+      "Bugfix",
+      "Hotfix",
+      "Feature",
+      "Ninguna de las anteriores"
+    ],
+    "answer": "Bugfix",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "672e8733-d0f4-4510-8ae1-f7de2528efce",
+    "question": "¿Cuándo se desbloquean los Servicios en Integrado (bloqueados por una implantación)?",
+    "options": [
+      "El día de la subida a Piloto",
+      "El día de la subida a PRO",
+      "Cuando se revisa la Calidad",
+      "Ya nunca se bloquean"
+    ],
+    "answer": "Ya nunca se bloquean",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "e393e26f-269c-4461-b8bb-ecb8ec1ffe82",
+    "question": "¿Quién es el encargado de realizar la subida de un componente a master?",
+    "options": [
+      "El equipo de Integración y Despliegue",
+      "Release Manager",
+      "El desarrollador mediante un mergeo a master",
+      "El desarrollador mediante una pull request a master"
+    ],
+    "answer": "Release Manager",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "db4feb9e-7d3d-4679-ad2d-9c8729cfdfa8",
+    "question": "¿Qué significa CRUD?",
+    "options": [
+      "Conjunto de reglas que hay detrás de los test Cucumber",
+      "Nuevo procedimiento Jira para dar de alta un MSA para un Q determinado",
+      "Funciones básicas en bases de datos o la capa de persistencia en un SW",
+      "La nueva uuaa que ha creado Global para los servicios que van a ser implementados en AWS"
+    ],
+    "answer": "Funciones básicas en bases de datos o la capa de persistencia en un SW",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "a9d12d5c-43a7-4294-ae62-7d7aeb8ae411",
+    "question": "¿Con cuánta antelación debo pedir la integración si no desarrollo ENAX/ERGO?",
+    "options": [
+      "14 días antes de la implantación",
+      "7 días antes de la implantación",
+      "Los días que establezca el calendario de I&D de la UUAA en cuestión",
+      "Los días que establece el integrador de mi UUAA"
+    ],
+    "answer": "Los días que establezca el calendario de I&D de la UUAA en cuestión",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "77bf898c-d6a5-4641-8cd6-1a94d0deb8b8",
+    "question": "¿Quién tiene que solicitar el consumo de un servicio?",
+    "options": [
+      "La persona de Gobierno que lleve el ticket",
+      "El responsable de la línea",
+      "El consumidor",
+      "El desarrollador"
+    ],
+    "answer": "El consumidor",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "02ac8138-fd4a-4f88-bbb1-e80b1e962588",
+    "question": "¿Cuál de estos datos son sensibles y se deben ofuscar en trazas?",
+    "options": [
+      "PAN, CVV, teléfonos, direcciones de e-mail, contraseñas, PIN y OTP.",
+      "PAN, CVV, Fecha de Caducidad de la tarjeta",
+      "DNI, PAN, CVV",
+      "IBAN, contractID, DNI"
+    ],
+    "answer": "PAN, CVV, teléfonos, direcciones de e-mail, contraseñas, PIN y OTP.",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "053470bf-293e-4f41-867b-72137dfa6c92",
+    "question": "Puedo desplegar mi rama hotfix/bugfix en los entornos...",
+    "options": [
+      "gremio",
+      "desarrollo > gremio",
+      "desarrollo > gremio > integrado",
+      "No puedo desplegar mi rama"
+    ],
+    "answer": "desarrollo > gremio > integrado",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "c5e5dd0f-96ac-42f5-9fff-2dae68d3d897",
+    "question": "¿Cuánta cobertura debe tener mínimo un servicio para poder subir a producción?",
+    "options": [
+      "80%",
+      "70%",
+      "100%",
+      "65%"
+    ],
+    "answer": "65%",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "eb53d5ff-d66f-48b1-b577-d415c5a00397",
+    "question": "¿Qué código devuelve un servicio que falla por no estar perfilado correctamente?",
+    "options": [
+      "401",
+      "409",
+      "403",
+      "400"
+    ],
+    "answer": "401",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "7986d73f-8e9b-467f-bf19-20ebcd253e9d",
+    "question": "¿A partir de qué estado del ticket Jira se puede solicitar el consumo de un servicio?",
+    "options": [
+      "Construcción.",
+      "Cerrado.",
+      "Comprobación inicial.",
+      "Pendiente de catalogación."
+    ],
+    "answer": "Construcción.",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "5b42b6b5-e483-4259-87d1-f0dcf945aac6",
+    "question": "¿Quién se encarga de realizar actualmente los mergeos a la rama master de las diferentes ramas?",
+    "options": [
+      "Integración y despliegue",
+      "Se realiza mediante Pull Request",
+      "El desarrollador",
+      "Release Manager"
+    ],
+    "answer": "Release Manager",
+    "topic": "ASO/Global/Test 3"
+  },
+  {
+    "id": "d7dff16b-9032-49fd-b8ac-6bc326dfd2be",
+    "question": "¿Qué código HTTP devuelve un servicio si la respuesta es correcta?",
+    "options": [
+      "204",
+      "200",
+      "400",
+      "409"
+    ],
+    "answer": "200",
+    "topic": "ASO/Global/Test 4"
+  },
+  {
+    "id": "12792c4a-c5b6-4951-a71f-ea3a795ed36b",
+    "question": "¿Qué hace la anotación @Produces?",
+    "options": [
+      "Aporta información sobre el servicio y además se utiliza para servicios antiguos para documentarlos y visualizarlos a través de swagger.",
+      "Indica las posibles respuestas que puede tener un servicio.",
+      "Indica en qué formato entran o salen los datos del servicio",
+      "Indica la ruta relativa del SMC en cuestión."
+    ],
+    "answer": "Indica en qué formato entran o salen los datos del servicio",
+    "topic": "ASO/Global/Test 4"
+  },
+  {
+    "id": "71404030-8176-4d75-ba79-f295be9c6611",
+    "question": "¿Qué hace la anotación @Consumes?",
+    "options": [
+      "Aporta información sobre el servicio y además se utiliza para servicios antiguos para documentarlos y visualizarlos a través de swagger.",
+      "Indica las posibles respuestas que puede tener un servicio.",
+      "Indica en qué formato entran o salen los datos del servicio",
+      "Indica la ruta relativa del SMC en cuestión."
+    ],
+    "answer": "Indica en qué formato entran o salen los datos del servicio",
+    "topic": "ASO/Global/Test 4"
+  },
+  {
+    "id": "00bdb618-7990-41ac-9488-0f7cafc4cd2a",
+    "question": "¿Cuál es la anotación de control de canal para un contrato?",
+    "options": [
+      "@User",
+      "@Contract",
+      "@ValidateContractId",
+      "@Amount"
+    ],
+    "answer": "@Contract",
+    "topic": "ASO/Global/Test 4"
+  },
+  {
+    "id": "7076b70e-ab07-405a-9d5c-5b615410fb38",
+    "question": "¿Cuáles son los datos sensibles?",
+    "options": [
+      "PAN, CVV, teléfonos, direcciones de e-mail, contraseñas, PIN y OTP.",
+      "PAN, CVV, Fecha de nacimiento, teléfonos, direcciones de e-mail, contraseñas, PIN y OTP",
+      "PAN, CVV, ID del usuario, contraseñas y PIN",
+      "PAN, CVV, Fecha de expiración de tarjeta, teléfonos y OTP"
+    ],
+    "answer": "PAN, CVV, teléfonos, direcciones de e-mail, contraseñas, PIN y OTP.",
+    "topic": "ASO/Global/Test 4"
+  },
+  {
+    "id": "3051bd0f-ae97-4ab0-a470-7d3ccc5b2b7e",
+    "question": "¿Cuál de las siguientes reglas de SONAR para implantar no es de las exigidas para implantar nuestro código?",
+    "options": [
+      "Que la cobertura sea superior a la que había en master",
+      "Que al menos funcionen el 65% de los tests",
+      "Que no haya incidencias críticas",
+      "Que no haya incidencias bloqueantes"
+    ],
+    "answer": "Que al menos funcionen el 65% de los tests",
+    "topic": "ASO/Global/Test 4"
+  },
+  {
+    "id": "589f32e6-abcb-4de2-8be2-36d3e299eab6",
+    "question": "¿Qué hay que hacer para solicitar OCTA?",
+    "options": [
+      "Solicitarlo al integrador de la UUAA",
+      "Mandar un correo a Integración y Despliegue solicitándolo",
+      "Solicitud a Arquitectura vía remedy",
+      "Solicitar las pruebas de rendimiento a través de la consola"
+    ],
+    "answer": "Solicitud a Arquitectura vía remedy",
+    "topic": "ASO/Global/Test 4"
+  },
+  {
+    "id": "4e843e8d-3aa2-4d66-8fa6-d572cf210d5e",
+    "question": "¿Cuál es el estado previo a perfilado y catalogación en un proceso global de consumo de servicio ASO (nuevo flujo)?",
+    "options": [
+      "Solicitud de consumo en Jira",
+      "Validación Local de la Petición",
+      "Pruebas EEPP",
+      "Validación final"
+    ],
+    "answer": "Validación Local de la Petición",
+    "topic": "ASO/Global/Test 4"
+  },
+  {
+    "id": "8c00e3fd-e728-4140-9b5e-7ab357375cf1",
+    "question": "¿Qué nombre tiene una rama del fork en Global?",
+    "options": [
+      "GRAP-4742 o ASOGP-4742",
+      "SOPVII-21009",
+      "feature/FixDescripciones",
+      "MiUsuario"
+    ],
+    "answer": "GRAP-4742 o ASOGP-4742",
+    "topic": "ASO/Global/Test 4"
+  },
+  {
+    "id": "501d17a7-9b03-43c3-b7f0-4898f1be95b0",
+    "question": "¿Cuál es el timeout censado de un servicio ASO?",
+    "options": [
+      "12000 ms",
+      "20000 ms",
+      "3000 ms",
+      "1000 ms"
+    ],
+    "answer": "12000 ms",
+    "topic": "ASO/Global/Test 4"
+  },
+  {
+    "id": "6ad330bc-9671-4716-8fdf-65ce2d0936b0",
+    "question": "¿Qué hace la anotación @Path?",
+    "options": [
+      "Aporta información sobre el servicio y además se utiliza para servicios antiguos para documentarlos y visualizarlos a través de swagger.",
+      "Indica las posibles respuestas que puede tener un servicio.",
+      "Indica en qué formato entran o salen los datos del servicio",
+      "Indica la ruta relativa del SMC en cuestión."
+    ],
+    "answer": "Indica la ruta relativa del SMC en cuestión.",
+    "topic": "ASO/Global/Test 4"
+  },
+  {
+    "id": "59efa140-7f7e-4d5d-8ec1-ea22acc9d36b",
+    "question": "¿Qué hace la anotación @ApiOperation?",
+    "options": [
+      "Aporta información sobre el servicio y además se utiliza para servicios antiguos para documentarlos y visualizarlos a través de swagger.",
+      "Indica las posibles respuestas que puede tener un servicio.",
+      "Indica en qué formato entran o salen los datos del servicio",
+      "Ninguna de las anteriores."
+    ],
+    "answer": "Aporta información sobre el servicio y además se utiliza para servicios antiguos para documentarlos y visualizarlos a través de swagger.",
+    "topic": "ASO/Global/Test 4"
+  },
+  {
+    "id": "def3cc45-cac4-4f5b-98f7-fd12920ce349",
+    "question": "¿Cuál es el timeout censado de un servicio APX Zona Crítica?",
+    "options": [
+      "12000 ms",
+      "20000 ms",
+      "3000 ms",
+      "1000 ms"
+    ],
+    "answer": "3000 ms",
+    "topic": "ASO/Global/Test 4"
+  },
+  {
+    "id": "2894a8b1-669f-4cbd-bfda-d24cf9a63808",
+    "question": "¿En qué estado se deben realizar las pruebas del servicio?",
+    "options": [
+      "En construcción",
+      "Edición de datos",
+      "Ciberseguridad",
+      "Test"
+    ],
+    "answer": "En construcción",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "77844b5e-3213-4ec9-88f0-bc747d3de1d6",
+    "question": "Tengo un servicio de negocio con una entidad cuyo identificador debe estar cifrado tanto en la entrada como en la salida de los servicios multicanal que operan sobre dicha entidad. Dicho identificador está formado por varios campos entre los que está el identificador de contrato necesario para realizar las operaciones. ¿Qué anotación de arquitectura ASO debo usar si además quiero asegurar el control del canal sobre dicho contrato?",
+    "options": [
+      "@SecurityFunction",
+      "@GenerateldOP",
+      "@Format",
+      "@DatoAuditable"
+    ],
+    "answer": "@GenerateldOP",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "0e234ed0-650f-4224-989f-8105e61c45ed",
+    "question": "¿Cuál es la anotación que se utiliza para indicar la versión del servicio de negocio?",
+    "options": [
+      "VS",
+      "VE",
+      "V",
+      "VN"
+    ],
+    "answer": "VN",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "1806ad03-82d9-4174-954f-4f313d71325a",
+    "question": "En el caso de que un servicio pase de mono a multioperación ¿cuáles son los pasos a seguir?",
+    "options": [
+      "Deberá subir primero el servicio y después la catalogación ya que si no fallará el servicio",
+      "Deberá subir primero la catalogación y después el servicio ya que si no fallará el servicio",
+      "Habría que hacer un versionado del Servicio",
+      "Es independiente qué sube primero ya que no tiene impacto en el Servicio"
+    ],
+    "answer": "Deberá subir primero el servicio y después la catalogación ya que si no fallará el servicio",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "36190f71-2cc7-487a-81c5-d4ffc162e666",
+    "question": "¿Cuándo hay que hacer un control del canal en un servicio?",
+    "options": [
+      "Cuando se estén tratando en el servicio clientes o contratos",
+      "Sólo cuando son servicio de particulares",
+      "Cuando se estén tratando en el servicio clientes o contratos en las AAPs atendidas",
+      "Cuando se estén tratando en el servicio clientes o contratos en las AAPs desatendidas"
+    ],
+    "answer": "Cuando se estén tratando en el servicio clientes o contratos",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "94742847-5907-4fb3-90bf-6a0f2e71bad3",
+    "question": "¿Cuál de las siguientes afirmaciones es una de las no exigidas para pasar Sonar?",
+    "options": [
+      "Se supere el 65% de la cobertura",
+      "La cobertura sea igual o mayor que la que había en master antes de nuestros cambios",
+      "Funcionen el 65% de los test",
+      "Que no haya incidencias críticas ni bloqueantes"
+    ],
+    "answer": "Funcionen el 65% de los test",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "17de98f1-2dc8-4491-81fb-67fd495a413b",
+    "question": "¿Qué tipo de pruebas se deben realizar la noche de la implantación?",
+    "options": [
+      "Con levantar el WADL vale",
+      "Pruebas técnicas",
+      "Pruebas funcionales",
+      "Pruebas de los servicios críticos"
+    ],
+    "answer": "Pruebas funcionales",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "e62960d6-6366-474a-a66b-ed128b6dde59",
+    "question": "¿Qué código de HTTP de respuesta se debe utilizar cuando un servicio devuelve un error funcional en servicios de API Catalog?",
+    "options": [
+      "400",
+      "204",
+      "409",
+      "500"
+    ],
+    "answer": "400",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "d758f022-e32a-42f2-bb99-15b059242ef9",
+    "question": "¿Cuál de las siguientes afirmaciones es de las exigidas por Sonar?",
+    "options": [
+      "No haya incidencias críticas ni bloqueantes",
+      "No haya incidencias críticas, bloqueantes ni mayor",
+      "No haya incidencias críticas ni mayor",
+      "No haya incidencias bloqueantes ni mayor"
+    ],
+    "answer": "No haya incidencias críticas ni bloqueantes",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "16808bae-36e1-49c5-a477-8eb64e22ab2e",
+    "question": "¿Cuál es la anotación para recuperar información del contexto?",
+    "options": [
+      "ServiceInvocationContext",
+      "ContextProvider",
+      "ServiceUtilities",
+      "ArqSpringContext"
+    ],
+    "answer": "ServiceInvocationContext",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "09cd12e5-d865-4530-96c0-98e81092f4d7",
+    "question": "Completa la frase. El control de canal valida que…",
+    "options": [
+      "El cliente tiene poder sobre el contrato",
+      "El contrato pertenece al cliente",
+      "El cliente es el titular del contrato",
+      "El cliente puede operar/consultar con ese contrato"
+    ],
+    "answer": "El cliente puede operar/consultar con ese contrato",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "e2aafa2a-103c-4571-9fad-4ca6b38d2d0c",
+    "question": "¿Qué código de Error se corresponde con un error técnico?",
+    "options": [
+      "500",
+      "409",
+      "400",
+      "404"
+    ],
+    "answer": "500",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "e97148a4-54ea-4d0b-b6e7-c36f7e0bf0a4",
+    "question": "¿Qué es el restconnector?",
+    "options": [
+      "Es un conector para conectar con un backend del tipo WebService tipo SOAP",
+      "Es un conector para obtener el recaptcha de Google",
+      "Es un conector para realizar llamadas a KSZB o solicitar cualquier tipo de operativa de cifrado",
+      "Es un conector para la comunicación con cualquier servicio REST desde servicios ASO"
+    ],
+    "answer": "Es un conector para la comunicación con cualquier servicio REST desde servicios ASO",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "f2b4d891-cbd3-47e7-8646-3482b1257a1b",
+    "question": "¿En qué ruta debo incluir el cucumber nuevo?",
+    "options": [
+      "Com.bbva.arch.qe.test",
+      "Acceptane",
+      "Com.bbva.enax.stores.bdd",
+      "Cucumber/src/main/java/com/bbva/arch/qe/test"
+    ],
+    "answer": "Acceptane",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "41a90033-5719-4eea-ba25-9bd4e85edda3",
+    "question": "En caso de tener que versionar un servicio, ¿en qué fichero se debe incluir el bean de la nueva versión?",
+    "options": [
+      "Dentro de la anotación @SN(routines=…)",
+      "Se define un xml nuevo que se importa en el business.service xml",
+      "En el business-service.xml",
+      "Ninguna de las anteriores"
+    ],
+    "answer": "En el business-service.xml",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "c0f0f157-27fe-4520-8e72-2c5a1572a7d9",
+    "question": "¿Cuál es la diferencia entre un ticket de Modificación de SMC y un ticket de Modificación Exprés de servicio?",
+    "options": [
+      "En el ticket de Modificación de SMC hay que modificar el diseño y en el ticket de Modificación Exprés no",
+      "En el ticket de Modificación de SMC se solicita el consumo de un servicio y en el ticket de Modificación Exprés no",
+      "En el ticket de Modificación Exprés se solicita el consumo de un servicio y en el ticket de Modificación de SMC no",
+      "En el ticket de Modificación Exprés hay que modificar el diseño y en el ticket de Modificación de SMC no"
+    ],
+    "answer": "En el ticket de Modificación de SMC hay que modificar el diseño y en el ticket de Modificación Exprés no",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "d782b94d-2650-4ba1-84dc-cc56cb706d58",
+    "question": "¿Quién tiene que solicitar el consumo de un Servicio?",
+    "options": [
+      "La persona de Gobierno que lleva el ticket",
+      "El responsable de la línea",
+      "El consumidor",
+      "El desarrollador"
+    ],
+    "answer": "El consumidor",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "bd10ee14-051d-4ea6-9eba-acccde1f43de",
+    "question": "¿Qué hay que hacer cuando retrocedo un ticket ASO a “Pendiente Validación Global” por modificación?",
+    "options": [
+      "Añadir las modificaciones en un comentario en el ASO",
+      "Comunicar al API Designer las modificaciones",
+      "Hacer un DFT solo con las modificaciones que aplican",
+      "Indicar las modificaciones con comentarios en DFT original"
+    ],
+    "answer": "Indicar las modificaciones con comentarios en DFT original",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "05c7a903-3095-4695-bd85-5323809f1139",
+    "question": "¿Cuál es el estado previo al perfilado del servicio?",
+    "options": [
+      "Validación de datos",
+      "Ciberseguridad",
+      "Pendiente de perfilado",
+      "Pendiente de Catalogación"
+    ],
+    "answer": "Pendiente de Catalogación",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "e030bba9-5ec6-4774-9e0a-dad462b4dcee",
+    "question": "¿Qué reglas de calidad Sonar deben pasar los servicios para poder implantarse en producción?",
+    "options": [
+      "Que no haya incidencias críticas y se cumpla un mínimo de cobertura",
+      "Que no haya incidencias críticas y se cumpla un mínimo de cobertura y se ejecuten todos los test correctamente",
+      "Que se cumpla un mínimo de cobertura",
+      "Que no haya incidencias críticas y se ejecuten todos los test correctamente."
+    ],
+    "answer": "Que no haya incidencias críticas y se cumpla un mínimo de cobertura",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "50000dbe-4cb7-4466-afdd-ba77bcf9543f",
+    "question": "¿Para qué sirve el ticket ASO Service Modification de tipo \"code\"?",
+    "options": [
+      "Para modificar solamente código. Es decir, no afecta al diseño del componente",
+      "Modificaciones que afectan al código y al diseño pero no al API",
+      "Modificaciones que afectan al API, al diseño y al código",
+      "Modificaciones que vienen motivadas por una incidencia que ha subido vía ticket express (el de abajo), y que afectan al diseño"
+    ],
+    "answer": "Para modificar solamente código. Es decir, no afecta al diseño del componente",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "275894c2-db8b-4fdd-8191-d0cb093cd441",
+    "question": "¿Qué es el conector WSDL?",
+    "options": [
+      "Es un conector para conectar con un backend del tipo WebService tipo SOAP",
+      "Es un conector para obtener el recaptcha de Google",
+      "Es un conector para realizar llamadas a KSZB o solicitar cualquier tipo de operativa de cifrado",
+      "Es un conector para la comunicación con cualquier servicio REST desde servicios ASO"
+    ],
+    "answer": "Es un conector para conectar con un backend del tipo WebService tipo SOAP",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "1c68b108-3457-4e82-aaac-0e1a03d0c213",
+    "question": "¿En la consola Ether qué rama se puede desplegar en Integrado?",
+    "options": [
+      "Develop",
+      "Feature",
+      "Bugfix/Hotfix",
+      "Integration"
+    ],
+    "answer": "Integration",
+    "topic": "ASO/Global/Test 5"
+  },
+  {
+    "id": "68241f71-03ec-470d-b64f-f6ed9184d46a",
+    "question": "¿Para qué sirve el ticket ASO Service Modification de tipo API?",
+    "options": [
+      "Para modificar solamente código. Es decir, no afecta al diseño del componente",
+      "Modificaciones que afectan al código y al diseño, pero no al API",
+      "Modificaciones que afectan al API, al diseño y al código",
+      "Modificaciones que vienen motivadas por una incidencia que se ha subido vía ticket exprés (el de abajo), y afectan al diseño"
+    ],
+    "answer": "Modificaciones que afectan al API, al diseño y al código",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "1d67760d-e959-4fd3-809c-f86a5e73bab4",
+    "question": "¿Para qué sirve el ticket ASO Service Modification de tipo \"Regularization\"?",
+    "options": [
+      "Para modificar solamente código. Es decir, no afecta al diseño del componente",
+      "Modificaciones que afectan al código y al diseño, pero no al API",
+      "Modificaciones que afectan al API, al diseño y al código",
+      "Modificaciones que vienen motivadas por una incidencia que se ha subido vía ticket exprés (el de abajo), y que afectan al diseño"
+    ],
+    "answer": "Modificaciones que vienen motivadas por una incidencia que se ha subido vía ticket exprés (el de abajo), y que afectan al diseño",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "a4aced57-24cd-40a0-933d-78af0a78a618",
+    "question": "¿Cuántos escenarios de cucumber como mínimo debe tener un servicio get-detalle?",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "8"
+    ],
+    "answer": "6",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "2e3926c9-8868-4e4f-8044-ccb73f4a7e25",
+    "question": "¿Sobre qué tipo de datos se realiza el control de canal?",
+    "options": [
+      "Clientes y contratos",
+      "Clientes, contratos y datos personales (teléfono, correo electrónico, etc.)",
+      "Cliente y datos personales (teléfono, correo electrónico, etc.)",
+      "Contratos y datos personales (teléfono, correo electrónico etc.)"
+    ],
+    "answer": "Clientes y contratos",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "b315c5fd-5c28-4ef7-92b3-dfaeecdf8fd2",
+    "question": "¿Cuál de estos es el orden correcto de despliegue de un servicio por entornos?",
+    "options": [
+      "Desarrollo -> Gremio -> Integrado -> AUS -> Piloto -> Producción",
+      "Desarrollo -> Integrado -> AUS -> Piloto -> Producción",
+      "Desarrollo -> Integrado -> AUS -> Producción",
+      "Gremio -> Desarrollo -> Integrado -> AUS -> Piloto -> Producción"
+    ],
+    "answer": "Desarrollo -> Gremio -> Integrado -> AUS -> Piloto -> Producción",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "bace6540-45e3-4900-a190-4b86f98654be",
+    "question": "(Completa la frase) El control de canal valida que ...",
+    "options": [
+      "el cliente está autorizado para realizar esa consulta u operación",
+      "el cliente ya ha realizado alguna vez esa consulta u operación",
+      "el cliente tiene un contrato de consulta u operación",
+      "el cliente es quien dice ser mediante la cámara del teléfono/ordenador"
+    ],
+    "answer": "el cliente está autorizado para realizar esa consulta u operación",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "f282baa3-c43b-49c9-b85c-fd4a089b06ae",
+    "question": "¿Qué devuelve un servicio multipaso en el primer paso y se tiene que mandar informado de vuelta en el paso 2?",
+    "options": [
+      "El cuf asociado a la firma del documento",
+      "Id de la petición para que el paso uno y dos estén relacionados",
+      "Un body de respuesta",
+      "El código http de error"
+    ],
+    "answer": "El cuf asociado a la firma del documento",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "1a789209-bc06-4cfc-87bc-4986ca32a7d8",
+    "question": "¿Qué indica la anotación @Produces?",
+    "options": [
+      "Indica el formato de salida de los datos",
+      "En caso de que el servicio devuelva un documento, indica la ruta donde se ubicará dicho documento",
+      "Indica la salida del servicio",
+      "Informa del swagger de salida del servicio"
+    ],
+    "answer": "Indica el formato de salida de los datos",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "34cf38bc-40f1-45aa-9616-3c25a873220c",
+    "question": "Imagina que tienes que implementar un servicio con filtros. ¿Qué componentes situarías en el dao?",
+    "options": [
+      "Clases backend",
+      "Clases backend y llamadas al backend",
+      "Clases backend, llamadas al backend y mapper backend",
+      "Clases backend, llamadas al backend, mapper backend y entidades internas"
+    ],
+    "answer": "Clases backend",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "28d94129-8293-4809-8521-7c8fc91ea404",
+    "question": "¿Cuántos escenarios de cucumber son necesarios en un servicio de tipo post?",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "8"
+    ],
+    "answer": "8",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "2a6fe248-1b56-4538-b81d-1a4a54f93450",
+    "question": "¿Qué código corresponde a un error funcional en implementación local?",
+    "options": [
+      "400",
+      "500",
+      "409",
+      "204"
+    ],
+    "answer": "400",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "e3cd43c7-afeb-4bb0-bddf-21536d396232",
+    "question": "En el desarrollo de un servicio multicanal que se comunicará con host, se necesitan dos archivos .java para petición y respuesta de la trx. Dichos ficheros ...",
+    "options": [
+      "Se crean en la capa dao/model se autogenera con la consola de Arquitectura, importando el contexto de la transacción.",
+      "En realidad no es necesario que se generen esos ficheros, con importar la transacción es suficiente",
+      "Esos ficheros nunca se deben generar en la capa dao/model, lo prohíbe Arquitectura",
+      "Se crean en la capa dao/model, se deben generar manualmente"
+    ],
+    "answer": "Se crean en la capa dao/model se autogenera con la consola de Arquitectura, importando el contexto de la transacción.",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "bf76c4ea-1733-4f4b-8725-45f6342d02ff",
+    "question": "¿Qué es el conector de recaptcha?",
+    "options": [
+      "Es un conector para obtener el recaptcha de Google",
+      "Es un conector para conectar con un backend del tipo WebService tipo SOAP",
+      "Es un conector para realizar llamadas a KSBZ o solicitar cualquier tipo de operativa de cifrado",
+      "Es un conector para la comunicación con cualquier servicio REST desde servicios ASO"
+    ],
+    "answer": "Es un conector para obtener el recaptcha de Google",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "467834b0-cef1-49b9-8cfc-7811536d8f2c",
+    "question": "¿Qué es necesario para comenzar a desarrollar servicios ASO en cualquier uuaa/área?",
+    "options": [
+      "Para cualquier uuaa: estar certificado, incluido en el grupo Grass correspondiente y tener permisos Fresno",
+      "Solo en el caso de ENAX o ERGO, estar certificado, incluido en el grupo Grass correspondiente y tener permisos Fresno",
+      "Para cualquier uuaa, con estar certificado es suficiente.",
+      "Para cualquier uuaa, estar certificado, incluido en el grupo Grass correspondiente, tener permisos Fresno y tener permisos en ENAX/ERGO."
+    ],
+    "answer": "Para cualquier uuaa: estar certificado, incluido en el grupo Grass correspondiente y tener permisos Fresno",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "5b8edb1d-a070-473f-812e-7242e11c87f5",
+    "question": "¿Qué anotación cifra/descifra datos en servicios?",
+    "options": [
+      "@SecurityFunction",
+      "@Auditable",
+      "@FunctionSecurity",
+      "@DatoAuditable"
+    ],
+    "answer": "@SecurityFunction",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "2416cce7-9d1c-458c-a966-19e78e5b6f52",
+    "question": "¿En qué fase se debe documentar un error funcional en un servicio?",
+    "options": [
+      "En su definición",
+      "En su construcción",
+      "Durante las pruebas unitarias (JUnits)",
+      "Durante las pruebas integradas"
+    ],
+    "answer": "En su definición",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "5774ab8f-0010-4063-bc93-dea41dcbcf16",
+    "question": "¿En qué anotación se incluye el bean del SecurityValidator en la facade de un servicio?",
+    "options": [
+      "@SMC",
+      "@Consumes",
+      "@ApiOperation",
+      "@PATH"
+    ],
+    "answer": "@SMC",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "ea8d3375-f754-4a76-8e26-54af33cb7399",
+    "question": "¿Qué tipo de servicio debe llevar paginación?",
+    "options": [
+      "List",
+      "Create",
+      "Get",
+      "Modify"
+    ],
+    "answer": "List",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "1faaabb3-b3ae-4042-8c0e-7a9d43ea22e0",
+    "question": "¿Qué código de HTTP de respuesta se debe utilizar cuando el servicio no devuelve datos?",
+    "options": [
+      "204",
+      "200",
+      "409",
+      "500"
+    ],
+    "answer": "204",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "54495262-b38d-4977-a1f5-648f6b76f6d0",
+    "question": "¿Qué tipo de pruebas se realiza la noche de la implantación?",
+    "options": [
+      "Pruebas funcionales",
+      "Con levantar el WADL vale",
+      "Pruebas técnicas",
+      "Pruebas de los servicios críticos"
+    ],
+    "answer": "Pruebas funcionales",
+    "topic": "ASO/Global/Test 6"
+  },
+  {
+    "id": "b182a1a6-8738-4d75-bdf9-04a1b79f66b7",
+    "question": "¿En qué casos el responsable del CRQ es el responsable del proyecto?",
+    "options": [
+      "Siempre",
+      "Nunca",
+      "Sólo en casos críticos",
+      "Cuando las UUAA no sean ENAX o ERGO"
+    ],
+    "answer": "Siempre",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "d0bd630f-5f3a-4b3a-83a9-008ddd22ac35",
+    "question": "¿Qué tipos de tickets Jira existen?",
+    "options": [
+      "Alta Servicio SMC, Modificación SMC, Modificación Exprés de servicios, Eliminación de SMC, Alta Servicio Proxy, Modificación Servicio Proxy y Solicitud de consumo de servicio",
+      "Alta Servicio SMC, Modificación SMC, Modificación Exprés de servicios, Alta Servicio Proxy, Modificación Servicio Proxy",
+      "Alta Servicio SMC, Modificación SMC, Modificación Exprés de servicios, Alta Servicio Proxy, Modificación Servicio Proxy y Solicitud de consumo de servicio",
+      "Alta Servicio SMC, Modificación SMC, Modificación Exprés de servicios, Eliminación de SMC y Solicitud de consumo de servicio"
+    ],
+    "answer": "Alta Servicio SMC, Modificación SMC, Modificación Exprés de servicios, Alta Servicio Proxy, Modificación Servicio Proxy y Solicitud de consumo de servicio",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "0abb6fda-e6f8-4c85-845a-0a12f077efb0",
+    "question": "¿Por qué se considera un ticket, en el estado “In Waiting”, inactivo?",
+    "options": [
+      "Han pasado 15 días desde su modificación",
+      "Han pasado 20 días desde su modificación",
+      "Han pasado 10 días desde su modificación",
+      "Han pasado 40 días desde su modificación"
+    ],
+    "answer": "Han pasado 20 días desde su modificación",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "34fc1e02-daa4-4788-ae01-801aafaeb9c8",
+    "question": "¿A qué contextos se puede acceder dentro de los servicios?",
+    "options": [
+      "Al de IMC",
+      "Al de Seguridad",
+      "A ambos",
+      "A ninguno"
+    ],
+    "answer": "Al de IMC",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "3675bad9-3b5e-4878-938d-d6f5ad47b059",
+    "question": "¿Qué no se informa nunca en la anotación @SMC?",
+    "options": [
+      "El código asignado por Gobierno al SMC",
+      "Nombre asignado por Gobierno al SMC",
+      "Indica si el servicio es multioperación",
+      "La ruta relativa específica del SMC"
+    ],
+    "answer": "La ruta relativa específica del SMC",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "68dc2060-6df0-4ab4-ad78-8c40c0627363",
+    "question": "¿Qué es necesario para comenzar a desarrollar servicios ASO en cualquier uuaa/area?",
+    "options": [
+      "Solo en el caso de ENAX o ERGO. estar certificado, incluido en el grupo Grass correspondiente y tener permisos Fresno",
+      "Para cualquier uuaa, con estar certificado es suficiente.",
+      "Para cualquier uuaa: estar certificado, incluido en el grupo Grass correspondiente y tener permisos Fresno",
+      "Para cualquier uuaa, estar certificado, incluido en el grupo Grass correspondiente, tener permisos Fresno y tener permisos en ENAX/ERGO."
+    ],
+    "answer": "Para cualquier uuaa: estar certificado, incluido en el grupo Grass correspondiente y tener permisos Fresno",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "d6312a71-28bf-48fd-b27f-09ea35bcaa32",
+    "question": "¿Para qué sirve el ticket ASO Service Modification de tipo Design?",
+    "options": [
+      "Para modificar solamente código. Es decir, no afecta al diseño el componente",
+      "Modificaciones que afectan al código y al diseño, pero no al API",
+      "Modificaciones que afectan al API, al diseño y al código",
+      "Modificaciones que vienen motivadas por una incidencia que se ha subido vía ticket exprés (el de abajo), y afectan al diseño"
+    ],
+    "answer": "Modificaciones que afectan al API, al diseño y al código",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "ddc5cc9e-af98-47e2-b9f6-5e6f38c3765e",
+    "question": "¿Para qué sirve el ticket ASO Service Modification de tipo “Metadata”?",
+    "options": [
+      "Para modificar solamente código. Es decir, no afecta al diseño el componente",
+      "Modificaciones que afectan al código y al diseño, pero no al API",
+      "Modificaciones que afectan al API, al diseño y al código",
+      "Modificaciones que vienen motivadas por una incidencia que se ha subida vía ticket exprés (el de abajo) y que afectan al diseño"
+    ],
+    "answer": "Modificaciones que afectan al código y al diseño, pero no al API",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "7d1c9532-3042-42a8-98d9-7df80f8c7965",
+    "question": "¿Qué herramienta mide la calidad del código?",
+    "options": [
+      "Cucumber",
+      "Sonar",
+      "Samuel",
+      "Jacoco"
+    ],
+    "answer": "Sonar",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "e515614e-0f25-4a27-9ff0-ad3d88b9fb2e",
+    "question": "¿Cuáles son todos los datos sensibles?",
+    "options": [
+      "PAN, CVV, Fecha de expiración de tarjeta, Teléfonos, CustomerId, Direcciones de e-mail, Contraseñas y PIN",
+      "PAN, CVV, teléfonos, direcciones de e-mail, contraseñas, PIN y OTP.",
+      "PAN, CVV, Fecha de expiración de tarjeta, Nombre del titular de la tarjeta, Teléfonos, Direcciones de e-mail, Contraseñas y OTP",
+      "PAN, Fecha de expiración de tarjeta, Nombre del titular de la tarjeta, Teléfonos, Direcciones de e-mail, Contraseñas y OTP PIN"
+    ],
+    "answer": "PAN, CVV, teléfonos, direcciones de e-mail, contraseñas, PIN y OTP.",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "b9233766-81a4-49a2-a458-c3ebfcf7d46a",
+    "question": "¿De qué tipo pueden ser las AAPs?",
+    "options": [
+      "Particulares y oficinas",
+      "Empresas y oficinas",
+      "Oficinas y desatendidas",
+      "Particulares y empresas"
+    ],
+    "answer": "Oficinas y desatendidas",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "6e170886-aca5-4488-a2b6-478981e4e7db",
+    "question": "¿Cuáles no son los datos sensibles?",
+    "options": [
+      "PAN, CVV,",
+      "Teléfono y dirección de e-mail",
+      "Usuario y Fecha de expiración de tarjeta",
+      "Pin y OTP"
+    ],
+    "answer": "Usuario y Fecha de expiración de tarjeta",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "50708b25-3360-4159-baaa-2a4b1bf33c5e",
+    "question": "¿Cuándo se debe solicitar la implantación de un proxy en Producción?",
+    "options": [
+      "15 días antes de la implantación en Producción",
+      "7 días antes de la implantación en Producción",
+      "2 días antes de la implantación en Producción",
+      "El día de antes de la implantación en Producción"
+    ],
+    "answer": "7 días antes de la implantación en Producción",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "a108f10b-9fc0-47e7-b2b7-377cc5e3e3aa",
+    "question": "¿Qué anotación cifrado/descifrado de datos en servicios?",
+    "options": [
+      "@Auditable",
+      "@SecurityFunction",
+      "@FunctionSecurity",
+      "@DatoAuditable"
+    ],
+    "answer": "@SecurityFunction",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "5f078589-000c-4d86-9ddd-a19dfcfa6bb1",
+    "question": "¿A quién tengo que poner como responsable de mi CRQ para la subida?",
+    "options": [
+      "A mí mismo",
+      "A Mariano de la Escalera como responsable de Servicios Multicanal",
+      "Al responsable de mi línea",
+      "A Integración y Despliegue"
+    ],
+    "answer": "Al responsable de mi línea",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "49953bb2-d30d-45dc-a722-25672bf63436",
+    "question": "¿Qué código http devuelve un servicio cuando devuelve un error de petición?",
+    "options": [
+      "400",
+      "409",
+      "412",
+      "500"
+    ],
+    "answer": "400",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "45d0ea46-6a58-4d5f-97cf-0736a4d7f245",
+    "question": "¿Cuándo se considera un ticket, en el estado “Designing Service”, inactivo?",
+    "options": [
+      "Han pasado 15 días desde su modificación",
+      "Han pasado 20 días desde su modificación",
+      "Han pasado 10 días desde su modificación",
+      "Han pasado 40 días desde su modificación"
+    ],
+    "answer": "Han pasado 20 días desde su modificación",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "511b72dc-66fb-4d9c-8eb4-dd9332005735",
+    "question": "En el proceso de solicitar la subida a producción de nuestro servicio, se encuentran las pruebas de rendimiento de OCTA. ¿Cómo se solicitan?",
+    "options": [
+      "Mandando un mail a OCTA",
+      "Abriendo un jira a OCTA",
+      "Abriendo un remedy a OCTA",
+      "Rellenando un formulario de OCTA"
+    ],
+    "answer": "Rellenando un formulario de OCTA",
+    "topic": "ASO/Global/Test 7"
+  },
+  {
+    "id": "f5893eef-f879-4d60-8c70-3559bbc568cc",
+    "question": "¿Cuál sería la anotación correcta de la operación 1 de un servicio multioperativo?",
+    "options": [
+      "SMC201700241OP001",
+      "SMC201700241OP01",
+      "SMC201700241OP1",
+      "SMC201700241P01"
+    ],
+    "answer": "SMC201700241OP001",
+    "topic": "ASO/Global/Test 8"
+  },
+  {
+    "id": "43b8f142-be78-4dab-9e5d-2e0d59c72706",
+    "question": "¿Cuándo un servicio devuelve 500?",
+    "options": [
+      "Cuando la entrada no es válida",
+      "Cuando falla la invocación al back",
+      "Cuando falla el mapeo a la salida",
+      "Nunca"
+    ],
+    "answer": "Cuando falla la invocación al back",
+    "topic": "ASO/Global/Test 8"
+  },
+  {
+    "id": "bee05c13-abf8-459d-b5a5-59db2c0c595c",
+    "question": "¿Cómo se solicita el consumo de un servicio a SEP de un servicio en construcción?",
+    "options": [
+      "A través de Jira \"Solicitud Consumo\"",
+      "Vía correo a SEP",
+      "No hace falta si está incluido en la Hoja ASO cuando se valida",
+      "Vía correo a Gobierno de Arquitectura"
+    ],
+    "answer": "A través de Jira \"Solicitud Consumo\"",
+    "topic": "ASO/Global/Test 8"
+  },
+  {
+    "id": "cf9d32b0-96c3-4aec-ad2f-3c8c3a867a4a",
+    "question": "¿Qué código de http de respuesta se debe utilizar cuando un servicio devuelve un error funcional en servicios de API Catalog?",
+    "options": [
+      "400",
+      "204",
+      "409",
+      "500"
+    ],
+    "answer": "400",
+    "topic": "ASO/Global/Test 8"
+  },
+  {
+    "id": "b7796c31-fc68-4fd9-9606-abe840f19931",
+    "question": "¿Cuál es el timeout por defecto de los servicios ASO?",
+    "options": [
+      "10000 ms",
+      "12000 ms",
+      "20000 ms",
+      "22000 ms"
+    ],
+    "answer": "12000 ms",
+    "topic": "ASO/Global/Test 8"
+  },
+  {
+    "id": "ed9297b3-72b0-4351-9df7-a62d048c2da8",
+    "question": "¿Qué anotación ofusca en trazas los datos sensibles?",
+    "options": [
+      "@DatoAuditable",
+      "@DataOfuscate",
+      "@Traces",
+      "@SMC"
+    ],
+    "answer": "@DatoAuditable",
+    "topic": "ASO/Global/Test 8"
+  },
+  {
+    "id": "e4477c5b-d569-4af6-aadb-d134b26ddab3",
+    "question": "Tengo un servicio... ¿qué anotación ASO debo usar si además quiero asegurar el control del canal sobre dicho contrato?",
+    "options": [
+      "@DatoAuditable",
+      "@Format",
+      "@GenerateldOP",
+      "@SecurityFunction"
+    ],
+    "answer": "@GenerateldOP",
+    "topic": "ASO/Global/Test 8"
+  },
+  {
+    "id": "f130231a-7e84-468c-b31c-c76e27e852a9",
+    "question": "¿En qué estado del JIRA tiene que estar el ticket mientras prueba el consumidor?",
+    "options": [
+      "En Edición de Datos.",
+      "En construcción",
+      "En calidad",
+      "En verificación de repositorio"
+    ],
+    "answer": "En construcción",
+    "topic": "ASO/Global/Test 8"
+  },
+  {
+    "id": "3ab3c8f9-b3c3-4a05-a113-16a9fd139a52",
+    "question": "¿Qué hace el getUserContractsIDs?",
+    "options": [
+      "Es el control de canal de particulares, recupera los contratos de un usuario.",
+      "Es el control de canal de particulares, obtiene los contratos de un usuario para un CIF determinado,",
+      "Es el control de canal de empresas, recupera los contratos de un usuario.",
+      "Es el control de canal de empresas, obtiene los contratos de un usuario para un CIF determinado."
+    ],
+    "answer": "Es el control de canal de empresas, obtiene los contratos de un usuario para un CIF determinado.",
+    "topic": "ASO/Global/Test 8"
+  },
+  {
+    "id": "b1d6fc0f-0775-4cbb-a9f3-31614ddd12ca",
+    "question": "¿Cuál es el parámetro que se debe añadir en la anotación @SMC de un servicio que le aplica realizar validaciones de seguridad en el preproceso?",
+    "options": [
+      "securityValidator",
+      "securityFunction",
+      "securityMethod",
+      "securityClass"
+    ],
+    "answer": "securityValidator",
+    "topic": "ASO/Global/Test 8"
+  },
+  {
+    "id": "c8adfc26-b79b-4712-9e85-7dee1653fb2f",
+    "question": "¿Qué NO es un proceso global de modificación de servicios ASO?",
+    "options": [
+      "Modificar un SMC existente con afectación a código",
+      "Modificar un SMC existente con afectación al API",
+      "Modificar un SMC existente con afectación a Metadatos",
+      "Modificar un SMC existente con afectación a alertas"
+    ],
+    "answer": "Modificar un SMC existente con afectación a alertas",
+    "topic": "ASO/Global/Test 8"
+  },
+  {
+    "id": "7f3771ce-a469-4173-ad63-99ed9dcf8adc",
+    "question": "De los siguientes apartados, ¿Cuál indica una documentación que no es exigida por Gestión de Cambios?",
+    "options": [
+      "Informe de OCTA",
+      "Visto bueno del líder técnico",
+      "Pruebas a realizar la noche de la implantación",
+      "Cucumber de las pruebas realizadas"
+    ],
+    "answer": "Cucumber de las pruebas realizadas",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "ff167b06-de16-48bd-9d10-53a7fdfa39ee",
+    "question": "¿Puedo modificar el código generado automáticamente?",
+    "options": [
+      "Si, pero solo la facade",
+      "Las clases de la facade No se debe modificar por parte del desarrollador",
+      "Las clases de la Bussines No se debe modificar por parte del desarrollador",
+      "paquete de la facade NO se deben modificar por parte del desarrollador, ni tampoco el fichero generado service-schema.json"
+    ],
+    "answer": "paquete de la facade NO se deben modificar por parte del desarrollador, ni tampoco el fichero generado service-schema.json",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "fbe8b9f5-24c9-4bbe-a1a6-8a135a6db18b",
+    "question": "¿A qué entorno es preferible subir la rama feature?",
+    "options": [
+      "Integrado",
+      "Desarrollo",
+      "Producción",
+      "Gremio"
+    ],
+    "answer": "Gremio",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "111cc99f-6954-4aa1-8005-9dd3f0b61066",
+    "question": "¿Cuál de estas afirmaciones sobre cucumber es falsa?",
+    "options": [
+      "Es exigido por Gestión de Cambios para dar el ok al CRQ",
+      "Es requisito para producción",
+      "Comprueba contra entornos previos el correcto funcionamiento de los servicios",
+      "Sirve para validar que el servicio funciona, pero no admite códigos de error de tipo 400"
+    ],
+    "answer": "Sirve para validar que el servicio funciona, pero no admite códigos de error de tipo 400",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "65f878d6-81b8-417c-9098-ce3cec1cd2ae",
+    "question": "¿Puedo realizar un DFT para más de un ticket JIRA?",
+    "options": [
+      "No, nunca",
+      "Siempre y cuando los métodos correspondan al mismo recurso",
+      "Sí, siempre",
+      "Siempre y cuando los métodos No correspondan al mismo recurso"
+    ],
+    "answer": "Siempre y cuando los métodos correspondan al mismo recurso",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "b50b8e24-860f-456b-b7bd-dfd9f17fe00b",
+    "question": "¿Para qué se abre un ticket de modificación de SMC?",
+    "options": [
+      "Cuando se realiza una modificación sobre un servicio que ya está en producción y que dicha modificación supone un cambio de interfaz o de backend",
+      "Cuando haya que realizar una modificación en el servicio haya o no que tocar la hoja ASO",
+      "Cuando se quiere modificar un servicio que aún se está construyendo",
+      "Cuando se quiere añadir en la hoja ASO un nuevo consumidor, pero no se requiere modificar el servicio"
+    ],
+    "answer": "Cuando se realiza una modificación sobre un servicio que ya está en producción y que dicha modificación supone un cambio de interfaz o de backend",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "3f007d57-372b-4220-93b4-85e0f62b5b4e",
+    "question": "¿Qué tipo de IMC indica que la AAP es para NO clientes y personas Jurídicas?",
+    "options": [
+      "INDIVIDUAL",
+      "COMMERCIAL",
+      "PROSPECT",
+      "PROSPECTCOMMERCIAL"
+    ],
+    "answer": "PROSPECTCOMMERCIAL",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "22c3f009-472c-4f98-96c8-bf474c300cfa",
+    "question": "¿Cuándo se actualiza la versión del API?",
+    "options": [
+      "Cuando añadas un cambio",
+      "Nunca se actualiza",
+      "Nunca, se actualiza automáticamente",
+      "Ninguna de las anteriores"
+    ],
+    "answer": "Nunca, se actualiza automáticamente",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "f8c88d7c-afc5-43ab-84db-a85a70bf3de1",
+    "question": "¿Por qué se considera un ticket en estado “Revisión de calidad”, inactivo?",
+    "options": [
+      "Han pasado 15 días desde su modificación",
+      "Han pasado 20 días desde su modificación",
+      "Han pasado 10 días desde su modificación",
+      "Han pasado 40 días desde su modificación"
+    ],
+    "answer": "Han pasado 10 días desde su modificación",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "467efc9e-e93e-4f79-85d0-72ed684d08d1",
+    "question": "¿Cuál de los siguientes son Roles de un cliente a la salida de un granting ticket?",
+    "options": [
+      "Operativo, pre-operativo, pre activado",
+      "No operativo, operativo, caducado",
+      "Operativo, caducado, fallo",
+      "Bloqueado, consulta, completa"
+    ],
+    "answer": "Operativo, pre-operativo, pre activado",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "eb619416-7c94-4196-862b-330c7e102cda",
+    "question": "¿Qué es el CAS?",
+    "options": [
+      "Asegurar que el cliente solo opera con contratos propios o con los que tiene permisos",
+      "Son siglas de ASO en castellano",
+      "No existe nada denominado así",
+      "También se lo conoce como IMC"
+    ],
+    "answer": "Asegurar que el cliente solo opera con contratos propios o con los que tiene permisos",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "de55916c-4aae-4c7f-bb8f-4233609bd41c",
+    "question": "¿Debo incluir las anotaciones de seguridad en el código de forma manual?",
+    "options": [
+      "Sí, si no lo has definido en el RAML",
+      "No, se incluyen de forma automática en la generación del scaffolding siempre que se hayan agregado correctamente en la API al construir el RAML",
+      "No, hay que solicitarlo mediante Remedy a arquitectura",
+      "Ninguna es correcta"
+    ],
+    "answer": "No, se incluyen de forma automática en la generación del scaffolding siempre que se hayan agregado correctamente en la API al construir el RAML",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "200bbc33-0065-4ed9-92fe-fcbcc923365f",
+    "question": "¿Cuando un servicio debe llevar Alarmado?",
+    "options": [
+      "No es necesario llevar alarmado",
+      "Si se trata de un alta o una modificación con versionado",
+      "Si se trata de un alta o una modificación",
+      "Solo si es un Alta"
+    ],
+    "answer": "Si se trata de un alta o una modificación con versionado",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "09f7e1f9-9910-4fa0-a36c-873ab8c452af",
+    "question": "¿A qué conector corresponde la definición “Sustituye al RestConnector para cuando se quieran hacer llamadas a KSZB o solicitar cualquier tipo de operativa de cifrado”?",
+    "options": [
+      "RestConnector",
+      "APIConnector",
+      "Conector generado con WSDL",
+      "CryptoConnector"
+    ],
+    "answer": "CryptoConnector",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "306ff07f-f256-44ec-b18f-38bdf5b33684",
+    "question": "¿A qué conector corresponde la definición “comunica con cualquier servicio REST desde servicios ASO”?",
+    "options": [
+      "RestConnector",
+      "APIConnector",
+      "Conector generado con WSDL",
+      "Ninguna de las anteriores"
+    ],
+    "answer": "RestConnector",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "990fcaaa-51bb-4b90-be8b-bd8163a6a97a",
+    "question": "¿Qué tipo de IMC indica que la AAP es para NO clientes y personas físicas?",
+    "options": [
+      "INDIVIDUAL",
+      "COMMERCIAL",
+      "PROSPECT",
+      "PROSPECTCOMMERCIAL"
+    ],
+    "answer": "PROSPECT",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "6db16011-de76-4a0a-bef1-f3058dba1f29",
+    "question": "¿Qué 3 cosas hace un servicio ASO?",
+    "options": [
+      "Validar entrada, invocar back, mapear salida",
+      "Invocar back, validar salida, mapear salida",
+      "Invocar back, generar errores, mapear salida",
+      "Invocar back, mapear salida, generar errores"
+    ],
+    "answer": "Validar entrada, invocar back, mapear salida",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "c0b239af-3f20-43f9-8d64-1849a40f57c2",
+    "question": "¿Qué ramas debo subir a los entornos de desarrollo e integrado?",
+    "options": [
+      "feature",
+      "Cualquier rama",
+      "Rama de integración",
+      "Hotfix"
+    ],
+    "answer": "Rama de integración",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "0477934e-2a39-46f2-b5f3-5ecf0440f841",
+    "question": "¿Qué código devuelve un error de petición?",
+    "options": [
+      "409",
+      "400",
+      "500",
+      "No hay errores de petición"
+    ],
+    "answer": "400",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "75346e09-6b2d-4f48-9c43-e447dc1393f2",
+    "question": "¿Qué tipo de IMC indica que la AAP es para clientes y para personas físicas?",
+    "options": [
+      "INDIVIDUAL",
+      "COMMERCIAL",
+      "PROSPECT",
+      "PROSPECTCOMMERCIAL"
+    ],
+    "answer": "INDIVIDUAL",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "b4827400-e332-4ce5-9e19-f374dee1b1ba",
+    "question": "¿Qué tipo de IMC indica que la AAP es para clientes y para personas Jurídicas?",
+    "options": [
+      "INDIVIDUAL",
+      "COMMERCIAL",
+      "PROSPECT",
+      "PROSPECTCOMMERCIAL"
+    ],
+    "answer": "COMMERCIAL",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "5b3166ff-a5c1-45e4-bfbd-f605e2b13385",
+    "question": "¿Cuándo se debe pasar OCTA?",
+    "options": [
+      "Cuando, tras rellenar el formulario, OCTA nos lo indique",
+      "Cuando, tras enviarles un correo electrónico, OCTA nos lo indique",
+      "Cuando la transacción no pase OCTA",
+      "Cuando Integración y Despliegue nos indiquen que debe pasarlo"
+    ],
+    "answer": "Cuando, tras rellenar el formulario, OCTA nos lo indique",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "bfe5f2a3-d53f-40dd-80ec-d32ae042baff",
+    "question": "¿Cuándo se usan las validaciones CAS e IMC?",
+    "options": [
+      "En servicios local - local",
+      "En servicios global - multilocal",
+      "En todos los tipos de servicio, desde local-local hasta global-multilocal",
+      "No es necesario usar estas validaciones"
+    ],
+    "answer": "En todos los tipos de servicio, desde local-local hasta global-multilocal",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "75481462-a1f6-40fd-a143-f0eabca1a5ee",
+    "question": "¿Cuál es el plugin utilizado para importar contextos a nuestro servicio ASO?",
+    "options": [
+      "Roo",
+      "Kermit",
+      "hamcrest",
+      "Los servicios ASO no llevan transacciones"
+    ],
+    "answer": "Kermit",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "771a8307-58cb-41ff-b1cf-d925d4c7e516",
+    "question": "¿Debo realizar un fork y una rama para la construcción del RAML?",
+    "options": [
+      "No, solo una rama Feature",
+      "Sí, pero no hace falta crear la rama",
+      "Sí, es el procedimiento correcto",
+      "No se hace así"
+    ],
+    "answer": "Sí, es el procedimiento correcto",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "3dcceff0-7333-41ea-9a32-1e49127ccca7",
+    "question": "¿Cuál es el estado de infraestructura multicanal correspondiente a 06?",
+    "options": [
+      "Firma Básica",
+      "Firma Avanzada",
+      "BBVA Alto",
+      "Delegado"
+    ],
+    "answer": "Firma Básica",
+    "topic": "ASO/Global/Test 9"
+  },
+  {
+    "id": "4bbea6d0-beec-4461-8bcc-aef7443a3e98",
+    "question": "¿Qué tipos de control de canal tenemos?",
+    "options": [
+      "Atendidas y desatendidas",
+      "Particulares y empresa",
+      "Total y parcial",
+      "Ninguna de las anteriores"
+    ],
+    "answer": "Particulares y empresa",
+    "topic": "ASO/Global/Test 9"
+  }
+]
