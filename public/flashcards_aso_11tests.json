@@ -3482,5 +3482,489 @@
       "answer": "Particulares y empresa",
       "topic": "ASO/Global/Test 9"
     }
+  ],
+  "flashcard_aso_10": [
+    {
+      "id": "81a75ff9-7d4e-4d71-9d02-d701366663ca",
+      "question": "¿Cómo se solicita el consumo para un servicio de ASO en el Tenant?",
+      "options": [
+        "Se debe crear un JIRA de \"Consumo del servicio ASO\"",
+        "Se envía un email a Gobierno Global",
+        "Se debe crear un JIRA de \"Nuevo servicio ASO\"",
+        "Se debe crear un JIRA de \"Modificación del servicio ASO\""
+      ],
+      "answer": "Se debe crear un JIRA de \"Consumo del servicio ASO\"",
+      "topic": "General"
+    },
+    {
+      "id": "d42de02d-90fb-458e-bbf2-f53da17c1e41",
+      "question": "¿Cómo se implementa un enumerado?",
+      "options": [
+        "Como un Array de Enum",
+        "Nunca se define un Enum en un servicio",
+        "Como tipo Enum",
+        "Cómo String."
+      ],
+      "answer": "Cómo String.",
+      "topic": "General"
+    },
+    {
+      "id": "0b97126b-3938-4b38-ab19-4ecded939818",
+      "question": "Respecto al stack ASO.lite, ¿qué afirmación NO es correcta?",
+      "options": [
+        "A nivel de servidor, un servicio/recurso es un ejecutable “.jar” que contiene el software desarrollado.",
+        "Tantos recursos como tenga un API será igual al número de jares x2 que haya desplegados en los servidores.",
+        "Cada recurso equivale a un servicio multicanal que contiene un CRUD completo del mismo, es decir las operaciones que puede realizar.",
+        "A nivel de servidor, un API es un ejecutable “.jar” que contiene el software desarrollado para los N recursos implementados."
+      ],
+      "answer": "A nivel de servidor, un API es un ejecutable “.jar” que contiene el software desarrollado para los N recursos implementados.",
+      "topic": "General"
+    },
+    {
+      "id": "780bbfe2-88b0-40be-aefc-47c16d70de1e",
+      "question": "Cuando se versiona un servicio, ¿qué se hace realmente?",
+      "options": [
+        "Se versiona solo la facade.",
+        "Se versiona el SMC (facade, business, dao).",
+        "Se versiona el SN entero con todos los SMC que haya.",
+        "Se versiona la facade de todo el SN. (No hace falta versionar todo el SN entero)."
+      ],
+      "answer": "Se versiona solo la facade.",
+      "topic": "General"
+    },
+    {
+      "id": "0f44f77c-0fe4-4e8a-87c6-895924fac59f",
+      "question": "Flujo JIRA ASO 1.0: ¿Cuál de los siguientes estados NO pertenece al rol de developer?",
+      "options": [
+        "Realizar pruebas de rendimiento",
+        "Solicitar pruebas de Deployment Quality (aka OCTA)",
+        "Realizar Pruebas Validación",
+        "Diseñar Metadatos"
+      ],
+      "answer": "Realizar pruebas de rendimiento",
+      "topic": "General"
+    },
+    {
+      "id": "d4786903-c625-4895-847a-7665cc4ac0c7",
+      "question": "Cuando usamos paginación, ¿qué dos atributos son obligatorios informar en la Request?",
+      "options": [
+        "pageSize y links.first",
+        "page y paginationKey",
+        "pageSize y paginationKey",
+        "totalPages y totalElements"
+      ],
+      "answer": "pageSize y paginationKey",
+      "topic": "General"
+    },
+    {
+      "id": "6147dfc6-b71f-438c-b9e3-274864fa5ebf",
+      "question": "¿Quién se encarga de realizar actualmente los mergeos a la rama develop de las diferentes ramas de desarrollo?",
+      "options": [
+        "Los responsables de la UUAA",
+        "El Developer",
+        "Integración y despliegue",
+        "Sólo lo puede hacer el Release Manager"
+      ],
+      "answer": "El Developer",
+      "topic": "General"
+    },
+    {
+      "id": "7c490608-5765-4f4b-8226-cfc747b1c256",
+      "question": "¿Qué rol puede desplegar en entorno de producción?",
+      "options": [
+        "Master.",
+        "Release Manager.",
+        "Developer.",
+        "Integrador de UUAA."
+      ],
+      "answer": "Release Manager.",
+      "topic": "General"
+    },
+    {
+      "id": "cdf71c84-7728-4e04-b67b-887e1b00936f",
+      "question": "Flujo JIRA ASO 1.0: ¿En qué estado del JIRA tiene que estar el ticket mientras prueba el consumidor?",
+      "options": [
+        "En Diseñar Metadatos / Designing Metadata",
+        "En Construir Servicio / Under Construction.",
+        "En Implantar en Producción / Ready to Production Deployment.",
+        "En Realizar Pruebas Release Candidate / Pending Release Candidate Validation."
+      ],
+      "answer": "En Construir Servicio / Under Construction.",
+      "topic": "General"
+    },
+    {
+      "id": "7170b762-187f-47c5-9c6d-7d5aa3afcade",
+      "question": "¿Qué código corresponde a un error funcional en implementación local?",
+      "options": [
+        "409.",
+        "400.",
+        "500.",
+        "403."
+      ],
+      "answer": "409.",
+      "topic": "General"
+    },
+    {
+      "id": "3eefcc71-9aaf-4192-92b6-c9978822e59d",
+      "question": "¿Cuál de los siguientes tipos de datos no es un tipo admitido en JSON?",
+      "options": [
+        "Object",
+        "String",
+        "Boolean",
+        "Number"
+      ],
+      "answer": "Object",
+      "topic": "General"
+    },
+    {
+      "id": "6ec23ae4-04aa-475c-aec3-0e6013c4219a",
+      "question": "¿Cada cuánto tiempo (salvo excepciones como periodos de congelación) se realizan las implantaciones en Producción?",
+      "options": [
+        "Mensualmente y siempre los días 15.",
+        "Cada semana",
+        "Cada mes",
+        "Cada dos semanas"
+      ],
+      "answer": "Cada dos semanas",
+      "topic": "General"
+    },
+    {
+      "id": "6fbdd592-6feb-4787-a950-a8d81f142c64",
+      "question": "¿Cuándo un método HTTP es idempotente?",
+      "options": [
+        "Un método HTTP es idempotente cuando el servidor actúa de manera diferente ante una misma petición",
+        "Un método HTTP es idempotente cuando optimiza los recursos del servidor",
+        "Un método HTTP es idempotente cuando el servidor afecta al recurso de la misma forma con peticiones idénticas.",
+        "Ninguna de las anteriores"
+      ],
+      "answer": "Un método HTTP es idempotente cuando el servidor afecta al recurso de la misma forma con peticiones idénticas.",
+      "topic": "General"
+    },
+    {
+      "id": "c1e18cd2-180e-456a-9c0b-ba86d8caa65a",
+      "question": "Flujo JIRA ASO 2.0: ¿Qué Tipo de Historia permite la creación de un nuevo endpoint que satisfaga su necesidad de negocio y que no existe ya en el Catálogo Global de APIs?",
+      "options": [
+        "New ASO Construction",
+        "Modification ASO Construction",
+        "New ASO Design",
+        "Modification ASO Design"
+      ],
+      "answer": "New ASO Design",
+      "topic": "General"
+    },
+    {
+      "id": "873f9e66-1a89-498b-a717-b5ea4e94d647",
+      "question": "¿Qué código devuelve un servicio que falla por no estar perfilado correctamente?",
+      "options": [
+        "401.",
+        "403.",
+        "409.",
+        "400."
+      ],
+      "answer": "401.",
+      "topic": "General"
+    },
+    {
+      "id": "6dc6cbbd-4db5-48f8-86b9-3749eac703be",
+      "question": "¿Con cuáles de las incidencias en Sonar no está permitido solicitar la implantación?",
+      "options": [
+        "Crítica y bloqueante.",
+        "Crítica e invalidadora.",
+        "Mayor y bloqueante.",
+        "Ninguna de las anteriores."
+      ],
+      "answer": "Crítica y bloqueante.",
+      "topic": "General"
+    },
+    {
+      "id": "5923781e-1af7-48da-a6f4-9d4770220bfa",
+      "question": "Flujo JIRA ASO 2.0: ¿Quién se encarga de solicitar los consumos de los servicios mediante el ticket JIRA correspondiente?",
+      "options": [
+        "Developer",
+        "Responsable de la UUAA",
+        "Equipo de Seguridad",
+        "Release Manager"
+      ],
+      "answer": "Developer",
+      "topic": "General"
+    },
+    {
+      "id": "78f44661-04f9-42f7-a172-f441205a9f7d",
+      "question": "¿Qué estado HTTP tenemos en el serviceResponse cuándo un método @GET no devuelve resultados?",
+      "options": [
+        "409",
+        "204",
+        "201",
+        "200"
+      ],
+      "answer": "204",
+      "topic": "General"
+    },
+    {
+      "id": "69e78be8-0062-485c-842f-c38e0e0cf979",
+      "question": "¿Cómo se inicia el proceso de Alta de un nuevo Evento?",
+      "options": [
+        "Mediante un email a Gobierno de Arquitectura",
+        "Mediante un ticket JIRA al equipo Gestor de Eventos y otro a Gobierno de Eventos",
+        "Mediante un ticket JIRA a Gobierno de Arquitectura",
+        "Mediante un Service Desk a Integración y Despliegue (I&D)"
+      ],
+      "answer": "Mediante un ticket JIRA al equipo Gestor de Eventos y otro a Gobierno de Eventos",
+      "topic": "General"
+    },
+    {
+      "id": "eeef1adb-cb2b-463f-9d09-65c50308b95e",
+      "question": "Flujo JIRA ASO 1.0: ¿Cuál de las siguientes tareas pertenece al rol de developer?",
+      "options": [
+        "Diseñar Seguridad del Servicio",
+        "Construir el Servicio",
+        "Gestionar Accesos a Backend",
+        "Validar Solicitud"
+      ],
+      "answer": "Construir el Servicio",
+      "topic": "General"
+    }
+  ],
+  "flashcard_aso_11": [
+    {
+      "id": "1dc37e40-2f53-4cb0-aa63-e83fd57b4ba9",
+      "question": "¿Qué parámetro se utiliza en la configuración del conector Upsilon para indicar el identificador único del stream de destino?",
+      "options": [
+        "namespace",
+        "stream",
+        "offset",
+        "record"
+      ],
+      "answer": "stream",
+      "topic": "General"
+    },
+    {
+      "id": "4eded8e1-8800-4635-9290-84c707c31616",
+      "question": "¿Qué clase proporciona la Arquitectura de Servicios para añadir información al evento Upsilon 'Evento Libre'?",
+      "options": [
+        "UpsilonConnector",
+        "ServicioAuditoria",
+        "ServiceInvocationContext",
+        "EventLogger"
+      ],
+      "answer": "EventLogger",
+      "topic": "General"
+    },
+    {
+      "id": "834ab54d-d133-45cf-a7d7-64f99b023207",
+      "question": "¿Qué protocolo NO es soportado por el plugin kermit-maven-plugin para la generación de clases de transacción?",
+      "options": [
+        "PS9_UNIF",
+        "IMS_CICS",
+        "OTMA_PG",
+        "APX"
+      ],
+      "answer": "IMS_CICS",
+      "topic": "General"
+    },
+    {
+      "id": "c8de6d9b-a9b2-448d-b99e-0b56ae4bc206",
+      "question": "Si un desarrollador quiere obtener el orderId del contexto de invocación de un servicio IMC, ¿qué método debe usar de ImcInvocationContext?",
+      "options": [
+        "getOrderIdentifier()",
+        "getStringProperty(\"orderId\")",
+        "getOrderId()",
+        "getProperty(\"orderId\")"
+      ],
+      "answer": "getOrderId()",
+      "topic": "General"
+    },
+    {
+      "id": "c950d1ac-ddaa-43b0-be50-14bf4ff223e2",
+      "question": "¿Cuál es la clase utilizada para obtener datos del contexto de Arquitectura (como el usuario o el AAP) en una operación de servicio?",
+      "options": [
+        "ConfigurationManager",
+        "ServiceInvocationContext",
+        "ImcInvocationContext",
+        "CasInvocationContext"
+      ],
+      "answer": "ServiceInvocationContext",
+      "topic": "General"
+    },
+    {
+      "id": "28275138-5f89-4bae-aeb3-221bd182737b",
+      "question": "¿Qué clase se utiliza para leer un header de la petición en un servicio ASO?",
+      "options": [
+        "InputHeaderManager",
+        "ServiceInvocationContext",
+        "ServiceHeaders",
+        "OutputHeaderManager"
+      ],
+      "answer": "InputHeaderManager",
+      "topic": "General"
+    },
+    {
+      "id": "b1bbe7af-5b67-402d-95fb-1d6c0fe29050",
+      "question": "En la ofuscación de la respuesta de un servicio para propósitos funcionales (es decir, para el invocador), ¿qué función del qualifier SecurityFunction se debe usar?",
+      "options": [
+        "decypher",
+        "obfuscate_audit",
+        "cypher",
+        "obfuscate"
+      ],
+      "answer": "obfuscate",
+      "topic": "General"
+    },
+    {
+      "id": "fa94ef9b-7a22-450d-b2bd-d0931488205b",
+      "question": "Si un servicio ASO implementa su lógica siguiendo las good practices, ¿qué clase de logger debe utilizar?",
+      "options": [
+        "org.slf4j.Logger",
+        "org.apache.commons.logging.Log",
+        "com.bbva.jee.arq.spring.core.log.I18nLog",
+        "java.util.logging.Logger"
+      ],
+      "answer": "org.apache.commons.logging.Log",
+      "topic": "General"
+    },
+    {
+      "id": "b496a8b2-d2e1-4b8f-b00c-843970c8cf00",
+      "question": "¿Cuál es el nombre del bean que se debe inyectar para acceder a las propiedades de la configuración centralizada?",
+      "options": [
+        "PropertyLoader",
+        "CentralizedConfig",
+        "ServiceInvocationContext",
+        "ConfigurationManager"
+      ],
+      "answer": "ConfigurationManager",
+      "topic": "General"
+    },
+    {
+      "id": "ad96057f-286a-4f98-9163-0c2a1c5a9854",
+      "question": "En el versionado de servicios, si se añade un nuevo parámetro obligatorio en una operación de servicio, ¿es necesario crear una nueva versión del servicio?",
+      "options": [
+        "No, a menos que se modifique la funcionalidad.",
+        "Solo si se elimina otro parámetro.",
+        "Sí.",
+        "Solo si la versión actual ya es obsoleta."
+      ],
+      "answer": "Sí.",
+      "topic": "General"
+    },
+    {
+      "id": "1476300d-bb54-4fe0-b831-1d13727c6814",
+      "question": "¿Qué anotación debe tener un DTO de respuesta para que se genere un header HTTP Location automáticamente al crear un recurso?",
+      "options": [
+        "@Created",
+        "@IdEntity",
+        "@Post",
+        "@Path"
+      ],
+      "answer": "@IdEntity",
+      "topic": "General"
+    },
+    {
+      "id": "e7a8d9ba-c7e3-4e39-8ce1-d166798c16da",
+      "question": "¿Qué debe contener un proyecto Maven que contiene un Routine Module?",
+      "options": [
+        "Un archivo pom.xml sin parent POM.",
+        "Un archivo business-service.xml",
+        "Un archivo routine.xml con el <servicing:routine-metadata>",
+        "Clases DTO en la capa facade."
+      ],
+      "answer": "Un archivo routine.xml con el <servicing:routine-metadata>",
+      "topic": "General"
+    },
+    {
+      "id": "d7bcd040-0a55-4945-a347-2e0b00653396",
+      "question": "¿Qué clase proporciona la Arquitectura de Servicios para crear enlaces a otros recursos en la respuesta de un servicio?",
+      "options": [
+        "ServiceLinkBuilder",
+        "LinkBuilder",
+        "BusinessServicesToolkitManager",
+        "ResourceLinker"
+      ],
+      "answer": "ServiceLinkBuilder",
+      "topic": "General"
+    },
+    {
+      "id": "a127b1ec-41fb-41e5-918d-4e200bb0f819",
+      "question": "¿Qué artefacto Maven proporciona la funcionalidad de paginación para los servicios ASO?",
+      "options": [
+        "pagination-core",
+        "arq-spring-servicing-core",
+        "arq-spring-core-api",
+        "arq-spring-restutils"
+      ],
+      "answer": "arq-spring-restutils",
+      "topic": "General"
+    },
+    {
+      "id": "5e749e3c-6108-4dd3-8022-29c4c29e0216",
+      "question": "¿En qué escenario se utiliza el objeto de respuesta ServiceResponseCreatedWithNoContent?",
+      "options": [
+        "Cuando el recurso se crea, se devuelve el recurso, y el status es 201.",
+        "Cuando el recurso se crea, no se devuelve cuerpo de respuesta, y el status es 204.",
+        "Cuando el recurso se crea, no se devuelve cuerpo de respuesta, y el status es 201.",
+        "Cuando el recurso no se encuentra, no se devuelve cuerpo de respuesta, y el status es 204."
+      ],
+      "answer": "Cuando el recurso se crea, no se devuelve cuerpo de respuesta, y el status es 201.",
+      "topic": "General"
+    },
+    {
+      "id": "9f8827d6-eff7-48c3-9e99-ef8022499cff",
+      "question": "¿Cuál es la URL base para acceder a la documentación de los servicios ASO, si no se encuentra la información?",
+      "options": [
+        "https://platform.bbva.com/aso/documentation/what-is-aso",
+        "https://platform.bbva.com/aso/documentation/a6a42f218b4f4cc0cb5990613fd879f2/",
+        "https://platform.bbva.com/aso/documentation/a6a42f218b4f4cc0cb5990613fd879f2/what-is-aso",
+        "https://platform.bbva.com/aso/documentation"
+      ],
+      "answer": "https://platform.bbva.com/aso/documentation",
+      "topic": "General"
+    },
+    {
+      "id": "e66309d0-25c2-46f2-99be-f3aba4b63f36",
+      "question": "Si un desarrollador en España tiene un error de ejecución en un servicio ASO, ¿qué se le debe recomendar hacer para obtener soporte?",
+      "options": [
+        "Contactar con gesarqserv@bbva.com",
+        "Abrir un helix al grupo de soporte Global",
+        "Consultar la documentación oficial",
+        "Abrir un helix al grupo de soporte local"
+      ],
+      "answer": "Consultar la documentación oficial",
+      "topic": "General"
+    },
+    {
+      "id": "dfa9a12a-aca8-4657-824e-9ed5b155e494",
+      "question": "¿Cuál es el endpoint de Sigma que se utiliza para crear un Alarm Receiver?",
+      "options": [
+        "/alarm-types",
+        "/alarm-receivers",
+        "/metric-watchers",
+        "/alarms"
+      ],
+      "answer": "/alarm-receivers",
+      "topic": "General"
+    },
+    {
+      "id": "bf7e1690-092c-4008-8981-416f75669060",
+      "question": "¿Qué tipo de Metric se utiliza para medir el número de ejecuciones con errores funcionales (4xx)?",
+      "options": [
+        "functional_error",
+        "num_executions",
+        "technical_error",
+        "span_duration"
+      ],
+      "answer": "functional_error",
+      "topic": "General"
+    },
+    {
+      "id": "fca14614-af87-439a-9b4d-e65666618945",
+      "question": "En la configuración de un Alarm Type, ¿qué objeto opcional se utiliza para alertar solo dentro de las horas de trabajo configuradas?",
+      "options": [
+        "notificationPolicies",
+        "alarmReceiver",
+        "onWorkingHours",
+        "propertiesSpec"
+      ],
+      "answer": "onWorkingHours",
+      "topic": "General"
+    }
   ]
 }

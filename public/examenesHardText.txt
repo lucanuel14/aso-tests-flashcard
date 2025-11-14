@@ -1798,3 +1798,261 @@
 - Particulares y empresa ← CORRECTA
 - Total y parcial
 - Ninguna de las anteriores
+
+
+
+
+
+
+
+
+
+## TEST N° 10 -------------------------------------------------------------------------------------------------
+**P.1 ¿Cómo se solicita el consumo para un servicio de ASO en el Tenant?**
+- Se debe crear un JIRA de "Consumo del servicio ASO" ← CORRECTA
+- Se envía un email a Gobierno Global
+- Se debe crear un JIRA de "Nuevo servicio ASO"
+- Se debe crear un JIRA de "Modificación del servicio ASO"
+
+**P.2 ¿Cómo se implementa un enumerado?**
+- Como un Array de Enum
+- Nunca se define un Enum en un servicio
+- Como tipo Enum
+- Cómo String. ← CORRECTA
+
+**P.3 Respecto al stack ASO.lite, ¿qué afirmación NO es correcta?**
+- A nivel de servidor, un servicio/recurso es un ejecutable “.jar” que contiene el software desarrollado.
+- Tantos recursos como tenga un API será igual al número de jares x2 que haya desplegados en los servidores.
+- Cada recurso equivale a un servicio multicanal que contiene un CRUD completo del mismo, es decir las operaciones que puede realizar.
+- A nivel de servidor, un API es un ejecutable “.jar” que contiene el software desarrollado para los N recursos implementados. ← CORRECTA
+
+**P.4 Cuando se versiona un servicio, ¿qué se hace realmente?**
+- Se versiona solo la facade. ← CORRECTA
+- Se versiona el SMC (facade, business, dao).
+- Se versiona el SN entero con todos los SMC que haya.
+- Se versiona la facade de todo el SN. (No hace falta versionar todo el SN entero).
+
+**P.5 Flujo JIRA ASO 1.0: ¿Cuál de los siguientes estados NO pertenece al rol de developer?**
+- Realizar pruebas de rendimiento ← CORRECTA
+- Solicitar pruebas de Deployment Quality (aka OCTA)
+- Realizar Pruebas Validación
+- Diseñar Metadatos
+
+**P.6 Cuando usamos paginación, ¿qué dos atributos son obligatorios informar en la Request?**
+- pageSize y links.first
+- page y paginationKey
+- pageSize y paginationKey ← CORRECTA
+- totalPages y totalElements
+
+**P.7 ¿Quién se encarga de realizar actualmente los mergeos a la rama develop de las diferentes ramas de desarrollo?**
+- Los responsables de la UUAA
+- El Developer ← CORRECTA
+- Integración y despliegue
+- Sólo lo puede hacer el Release Manager
+
+**P.8 ¿Qué rol puede desplegar en entorno de producción?**
+- Master.
+- Release Manager. ← CORRECTA
+- Developer.
+- Integrador de UUAA.
+
+**P.9 Flujo JIRA ASO 1.0: ¿En qué estado del JIRA tiene que estar el ticket mientras prueba el consumidor?**
+- En Diseñar Metadatos / Designing Metadata
+- En Construir Servicio / Under Construction. ← CORRECTA
+- En Implantar en Producción / Ready to Production Deployment.
+- En Realizar Pruebas Release Candidate / Pending Release Candidate Validation.
+
+**P.10 ¿Qué código corresponde a un error funcional en implementación local?**
+- 409. ← CORRECTA
+- 400.
+- 500.
+- 403.
+
+**P.11 ¿Cuál de los siguientes tipos de datos no es un tipo admitido en JSON?**
+- Object ← CORRECTA
+- String
+- Boolean
+- Number
+
+**P.12 ¿Cada cuánto tiempo (salvo excepciones como periodos de congelación) se realizan las implantaciones en Producción?**
+- Mensualmente y siempre los días 15.
+- Cada semana
+- Cada mes
+- Cada dos semanas ← CORRECTA
+
+**P.13 ¿Cuándo un método HTTP es idempotente?**
+- Un método HTTP es idempotente cuando el servidor actúa de manera diferente ante una misma petición
+- Un método HTTP es idempotente cuando optimiza los recursos del servidor
+- Un método HTTP es idempotente cuando el servidor afecta al recurso de la misma forma con peticiones idénticas. ← CORRECTA
+- Ninguna de las anteriores
+
+**P.14 Flujo JIRA ASO 2.0: ¿Qué Tipo de Historia permite la creación de un nuevo endpoint que satisfaga su necesidad de negocio y que no existe ya en el Catálogo Global de APIs?**
+- New ASO Construction
+- Modification ASO Construction
+- New ASO Design ← CORRECTA
+- Modification ASO Design
+
+**P.15 ¿Qué código devuelve un servicio que falla por no estar perfilado correctamente?**
+- 401. ← CORRECTA
+- 403.
+- 409.
+- 400.
+
+**P.16 ¿Con cuáles de las incidencias en Sonar no está permitido solicitar la implantación?**
+- Crítica y bloqueante. ← CORRECTA
+- Crítica e invalidadora.
+- Mayor y bloqueante.
+- Ninguna de las anteriores.
+
+**P.17 Flujo JIRA ASO 2.0: ¿Quién se encarga de solicitar los consumos de los servicios mediante el ticket JIRA correspondiente?**
+- Developer ← CORRECTA
+- Responsable de la UUAA
+- Equipo de Seguridad
+- Release Manager
+
+**P.18 ¿Qué estado HTTP tenemos en el serviceResponse cuándo un método @GET no devuelve resultados?**
+- 409
+- 204 ← CORRECTA
+- 201
+- 200
+
+**P.19 ¿Cómo se inicia el proceso de Alta de un nuevo Evento?**
+- Mediante un email a Gobierno de Arquitectura
+- Mediante un ticket JIRA al equipo Gestor de Eventos y otro a Gobierno de Eventos ← CORRECTA
+- Mediante un ticket JIRA a Gobierno de Arquitectura
+- Mediante un Service Desk a Integración y Despliegue (I&D)
+
+**P.20 Flujo JIRA ASO 1.0: ¿Cuál de las siguientes tareas pertenece al rol de developer?**
+- Diseñar Seguridad del Servicio
+- Construir el Servicio ← CORRECTA
+- Gestionar Accesos a Backend
+- Validar Solicitud
+
+
+
+
+
+
+
+
+
+## TEST N° 11 -------------------------------------------------------------------------------------------------
+**P1. ¿Qué parámetro se utiliza en la configuración del conector Upsilon para indicar el identificador único del stream de destino?**
+- namespace
+- stream ← CORRECTA
+- offset
+- record
+
+**P2. ¿Qué clase proporciona la Arquitectura de Servicios para añadir información al evento Upsilon 'Evento Libre'?**
+- UpsilonConnector
+- ServicioAuditoria
+- ServiceInvocationContext
+- EventLogger ← CORRECTA
+
+**P3. ¿Qué protocolo NO es soportado por el plugin kermit-maven-plugin para la generación de clases de transacción?**
+- PS9_UNIF
+- IMS_CICS ← CORRECTA
+- OTMA_PG
+- APX
+
+**P4. Si un desarrollador quiere obtener el orderId del contexto de invocación de un servicio IMC, ¿qué método debe usar de ImcInvocationContext?**
+- getOrderIdentifier()
+- getStringProperty("orderId")
+- getOrderId() ← CORRECTA
+- getProperty("orderId")
+
+**P5. ¿Cuál es la clase utilizada para obtener datos del contexto de Arquitectura (como el usuario o el AAP) en una operación de servicio?**
+- ConfigurationManager
+- ServiceInvocationContext ← CORRECTA
+- ImcInvocationContext
+- CasInvocationContext
+
+**P6. ¿Qué clase se utiliza para leer un header de la petición en un servicio ASO?**
+- InputHeaderManager ← CORRECTA
+- ServiceInvocationContext
+- ServiceHeaders
+- OutputHeaderManager
+
+**P7. En la ofuscación de la respuesta de un servicio para propósitos funcionales (es decir, para el invocador), ¿qué función del qualifier SecurityFunction se debe usar?**
+- decypher
+- obfuscate_audit
+- cypher
+- obfuscate ← CORRECTA
+
+**P8. Si un servicio ASO implementa su lógica siguiendo las good practices, ¿qué clase de logger debe utilizar?**
+- org.slf4j.Logger
+- org.apache.commons.logging.Log ← CORRECTA
+- com.bbva.jee.arq.spring.core.log.I18nLog
+- java.util.logging.Logger
+
+**P9. ¿Cuál es el nombre del bean que se debe inyectar para acceder a las propiedades de la configuración centralizada?**
+- PropertyLoader
+- CentralizedConfig
+- ServiceInvocationContext
+- ConfigurationManager ← CORRECTA
+
+**P10. En el versionado de servicios, si se añade un nuevo parámetro obligatorio en una operación de servicio, ¿es necesario crear una nueva versión del servicio?**
+- No, a menos que se modifique la funcionalidad.
+- Solo si se elimina otro parámetro.
+- Sí. ← CORRECTA
+- Solo si la versión actual ya es obsoleta.
+
+**P11. ¿Qué anotación debe tener un DTO de respuesta para que se genere un header HTTP Location automáticamente al crear un recurso?**
+- @Created
+- @IdEntity ← CORRECTA
+- @Post
+- @Path
+
+**P12. ¿Qué debe contener un proyecto Maven que contiene un Routine Module?**
+- Un archivo pom.xml sin parent POM.
+- Un archivo business-service.xml
+- Un archivo routine.xml con el <servicing:routine-metadata> ← CORRECTA
+- Clases DTO en la capa facade.
+
+**P13. ¿Qué clase proporciona la Arquitectura de Servicios para crear enlaces a otros recursos en la respuesta de un servicio?**
+- ServiceLinkBuilder ← CORRECTA
+- LinkBuilder
+- BusinessServicesToolkitManager
+- ResourceLinker
+
+**P14. ¿Qué artefacto Maven proporciona la funcionalidad de paginación para los servicios ASO?**
+- pagination-core
+- arq-spring-servicing-core
+- arq-spring-core-api
+- arq-spring-restutils ← CORRECTA
+
+**P15. ¿En qué escenario se utiliza el objeto de respuesta ServiceResponseCreatedWithNoContent?**
+- Cuando el recurso se crea, se devuelve el recurso, y el status es 201.
+- Cuando el recurso se crea, no se devuelve cuerpo de respuesta, y el status es 204.
+- Cuando el recurso se crea, no se devuelve cuerpo de respuesta, y el status es 201. ← CORRECTA
+- Cuando el recurso no se encuentra, no se devuelve cuerpo de respuesta, y el status es 204.
+
+**P16. ¿Cuál es la URL base para acceder a la documentación de los servicios ASO, si no se encuentra la información?**
+- https://platform.bbva.com/aso/documentation/what-is-aso
+- https://platform.bbva.com/aso/documentation/a6a42f218b4f4cc0cb5990613fd879f2/
+- https://platform.bbva.com/aso/documentation/a6a42f218b4f4cc0cb5990613fd879f2/what-is-aso
+- https://platform.bbva.com/aso/documentation ← CORRECTA
+
+**P17. Si un desarrollador en España tiene un error de ejecución en un servicio ASO, ¿qué se le debe recomendar hacer para obtener soporte?**
+- Contactar con gesarqserv@bbva.com
+- Abrir un helix al grupo de soporte Global
+- Consultar la documentación oficial ← CORRECTA
+- Abrir un helix al grupo de soporte local
+
+**P18. ¿Cuál es el endpoint de Sigma que se utiliza para crear un Alarm Receiver?**
+- /alarm-types
+- /alarm-receivers ← CORRECTA
+- /metric-watchers
+- /alarms
+
+**P19. ¿Qué tipo de Metric se utiliza para medir el número de ejecuciones con errores funcionales (4xx)?**
+- functional_error ← CORRECTA
+- num_executions
+- technical_error
+- span_duration
+
+**P20. En la configuración de un Alarm Type, ¿qué objeto opcional se utiliza para alertar solo dentro de las horas de trabajo configuradas?**
+- notificationPolicies
+- alarmReceiver
+- onWorkingHours ← CORRECTA
+- propertiesSpec

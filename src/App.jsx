@@ -89,7 +89,7 @@ export default function App() {
 
           <h2 className="mt-6 font-semibold">🧩 Tests predefinidos:</h2>
           <div className="grid grid-cols-3 gap-2">
-            {Array.from({ length: 9 }).map((_, i) => {
+            {Array.from({ length: 11 }).map((_, i) => {
               const key = `flashcard_aso_${i + 1}`;
               const status = testsProgress[key];
               let bg = "bg-gray-400";

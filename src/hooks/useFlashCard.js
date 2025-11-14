@@ -17,7 +17,7 @@ export default function useFlashcards() {
       .then((res) => res.json())
       .then((data) => setAllCards(data));
 
-    fetch("/flashcards_aso_12tests.json")
+    fetch("/flashcards_aso_11tests.json")
       .then((res) => res.json())
       .then((data) => setPredefinedTests(data));
 
