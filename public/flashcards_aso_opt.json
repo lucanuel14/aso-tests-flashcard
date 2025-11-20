@@ -2711,7 +2711,7 @@
     "id": "532c99e8-7ac4-4f94-9f16-14329c8c14f3",
     "question": "¿Qué clase proporciona la Arquitectura de Servicios para añadir información al evento Upsilon 'Evento Libre'?",
     "options": ["UpsilonConnector", "ServicioAuditoria", "ServiceInvocationContext", "EventLogger"],
-    "answer": "EventLogger",
+    "answer": "ServicioAuditoria",
     "topic": "ASO/Global/Test 11"
   },
   {

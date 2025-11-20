@@ -3747,7 +3747,7 @@
         "ServiceInvocationContext",
         "EventLogger"
       ],
-      "answer": "EventLogger",
+      "answer": "ServicioAuditoria",
       "topic": "General"
     },
     {
